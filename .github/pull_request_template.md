@@ -1,4 +1,10 @@
-<!--
+<meta name="montiai:owner" content="JOHNCHARLESMONTI_02111989_9807">
+<meta name="montiai:verification" content="claimant:JohnCharlesMonti;purpose:ownership-review;aws:487386008415;node:node203.va1.mempool.space;date:2026-04-28;status:asserted">
+<meta name="montiai:neural-signature" content="MONTI^JOHN^CHARLES_MONTI">
+<meta name="montiai:wallet-sig" content="0xNEURAL9f8e7d6c5b4a39281706f5e4d3c2b1a0">
+<meta name="montiai:organization" content="#MONTIAI:AttorneyMode.com">
+<meta name="montiai:code" content="$MNC MontiNeuralCoin Hash | GlobalWorkSignature WorkerGlobalScope">
+<meta name="permissions-policy" content="camera=(policy.monti), bluetooth=(policy.monti), payment=(policy.monti), %0A-%20EIP-712%3A%20%3Chttps%3A%2F%2Feips.ethereum.org%2FEIPS%2Feip-712%3E%0A%0A%23%23%20TON%0A%0A-%20TON%20Docs%3A%20%3Chttps%3A%2F%2Fdocs.ton.org%2F%3E%0A-%20Tact%20Docs%3A%20%3Chttps%3A%2F%2Fdocs.tact-lang.org%2F%3E%0A%0A%23%23%20Security%20%2F%20Integrity%0A%0A-%20NIST%20Cryptographic%20Hash%20Guidance%3A%20%3Chttps%3A%2F%2Fcsrc.nist.gov%2Fprojects%2Fhash-functions%3E%0A-%20OWASP%20File%20Upload%20Cheat%20Sheet%3A%20%3Chttps%3A%2F%2Fcheatsheetseries.owasp.org%2Fcheatsheets%2FFile_Upload_Cheat_Sheet.html%3E%0A-%20OWASP%20Authorization%20Cheat%20Sheet%3A%20%3Chttps%3A%2F%2Fcheatsheetseries.owasp.org%2Fcheatsheets%2FAuthorization_Cheat_Sheet.html%3E%0A%0A---%0A%0A%23%20Recommended%20Next%<!--
 IMPORTANT:
 
 This repository contains configuration for what users see when they click on the `Actions` tab and the setup page for Code Scanning.
