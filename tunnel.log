@@ -1,114 +1,57 @@
 nohup: ignoring input
-2026-10-20T04:40:52Z INF Starting tunnel tunnelID=26e62b30-6726-4c2e-9d66-6a0c18a673a1
-2026-10-20T04:40:52Z INF Version 2026.10.1 (Checksum 6376e8c77fabcb523d017d70d39daf00b42854964e43bc87d448a01bb0c8f805)
-2026-10-20T04:40:52Z INF GOOS: android, GOVersion: go1.27.2, GoArch: arm64
-2026-10-20T04:40:52Z INF Settings: map[config:/data/data/com.termux/files/home/.cloudflared/config.yml cred-file:/data/data/com.termux/files/home/.cloudflared/26e62b30-6726-4c2e-9d66-6a0c18a673a1.json credentials-file:/data/data/com.termux/files/home/.cloudflared/26e62b30-6726-4c2e-9d66-6a0c18a673a1.json origincert:/data/data/com.termux/files/home/.cloudflared/cert.pem p:http2 protocol:http2]
-2026-10-20T04:40:52Z INF Environmental variables map[TUNNEL_FORCE_PROVISIONING_DNS:true TUNNEL_ORIGIN_CERT:/data/data/com.termux/files/home/.cloudflared/cert.pem]
-2026-10-20T04:40:52Z INF Autoupdate frequency is set autoupdateFreq=86400000
-2026-10-20T04:40:52Z INF Generated Connector ID: 24054a6c-55ed-491d-ba2d-24dfbb33734a
-2026-10-20T04:40:52Z INF Initial protocol http2
-2026-10-20T04:40:52Z INF ICMP proxy will use 100.115.109.58 as source for IPv4
-2026-10-20T04:40:52Z INF ICMP proxy will use 2600:1003:b85b:6c7f:0:45:fd44:3301 in zone ccmni1 as source for IPv6
-2026-10-20T04:40:52Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="open /proc/sys/net/ipv4/ping_group_range: permission denied"
-2026-10-20T04:40:52Z INF ICMP proxy will use 100.115.109.58 as source for IPv4
-2026-10-20T04:40:52Z INF ICMP proxy will use 2600:1003:b85b:6c7f:0:45:fd44:3301 in zone ccmni1 as source for IPv6
-2026-10-20T04:40:52Z INF Starting metrics server on 127.0.0.1:20241/metrics
-2026-10-20T04:40:52Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::2
-2026-10-20T04:40:53Z INF +--------------------------------------------------------------------------------------+
-2026-10-20T04:40:53Z INF |                               CONNECTIVITY PRE-CHECKS                                |
-2026-10-20T04:40:53Z INF +--------------------------------------------------------------------------------------+
-2026-10-20T04:40:53Z INF |  COMPONENT         TARGET                     STATUS  DETAILS                        |
-2026-10-20T04:40:53Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully      |
-2026-10-20T04:40:53Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully      |
-2026-10-20T04:40:53Z INF |  UDP Connectivity  region1.v2.argotunnel.com  PASS    QUIC connection successful     |
-2026-10-20T04:40:53Z INF |  UDP Connectivity  region2.v2.argotunnel.com  PASS    QUIC connection successful     |
-2026-10-20T04:40:53Z INF |  TCP Connectivity  region1.v2.argotunnel.com  PASS    HTTP/2 connection successful   |
-2026-10-20T04:40:53Z INF |  TCP Connectivity  region2.v2.argotunnel.com  PASS    HTTP/2 connection successful   |
-2026-10-20T04:40:53Z INF |  Cloudflare API    api.cloudflare.com:443     PASS    API is reachable               |
-2026-10-20T04:40:53Z INF |                                                                                      |
-2026-10-20T04:40:53Z INF |  SUMMARY: Environment is healthy. cloudflared will use 'http2' as primary protocol.  |
-2026-10-20T04:40:53Z INF +--------------------------------------------------------------------------------------+
-2026-10-20T04:40:53Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=1be829ea-6bbc-4e75-8753-cdff299443ed status=pass target=region1.v2.argotunnel.com
-2026-10-20T04:40:53Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=1be829ea-6bbc-4e75-8753-cdff299443ed status=pass target=region2.v2.argotunnel.com
-2026-10-20T04:40:53Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=1be829ea-6bbc-4e75-8753-cdff299443ed status=pass target=region1.v2.argotunnel.com
-2026-10-20T04:40:53Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=1be829ea-6bbc-4e75-8753-cdff299443ed status=pass target=region2.v2.argotunnel.com
-2026-10-20T04:40:53Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=1be829ea-6bbc-4e75-8753-cdff299443ed status=pass target=region1.v2.argotunnel.com
-2026-10-20T04:40:53Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=1be829ea-6bbc-4e75-8753-cdff299443ed status=pass target=region2.v2.argotunnel.com
-2026-10-20T04:40:53Z INF precheck component="Cloudflare API" details="API is reachable" run_id=1be829ea-6bbc-4e75-8753-cdff299443ed status=pass target=api.cloudflare.com:443
-2026-10-20T04:40:53Z INF precheck complete hard_fail=false run_id=1be829ea-6bbc-4e75-8753-cdff299443ed suggested_protocol=http2
-2026-10-20T04:40:53Z INF Registered tunnel connection connIndex=0 connection=6effd40e-a6fc-4f9f-a20e-b038d7b1afd9 event=0 ip=2606:4700:a8::2 location=iad08 protocol=http2
-2026-10-20T04:40:53Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=1 event=0 ip=2606:4700:a0::8
-2026-10-20T04:40:53Z INF Registered tunnel connection connIndex=1 connection=b58b9d13-d213-4a82-b44c-b78d2ba18c54 event=0 ip=2606:4700:a0::8 location=iad10 protocol=http2
-2026-10-20T04:40:54Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=2 event=0 ip=2606:4700:a0::2
-2026-10-20T04:40:55Z INF Registered tunnel connection connIndex=2 connection=4d6e114e-e25a-4d48-93ed-9ce645fe89e9 event=0 ip=2606:4700:a0::2 location=iad09 protocol=http2
-2026-10-20T04:40:55Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=3 event=0 ip=2606:4700:a8::9
-2026-10-20T04:40:55Z INF Registered tunnel connection connIndex=3 connection=d73a803b-89bd-49bf-a537-469ac9ad058f event=0 ip=2606:4700:a8::9 location=iad08 protocol=http2
-2026-10-20T04:47:06Z INF Initiating graceful shutdown due to signal terminated ...
-2026-10-20T04:47:07Z INF Unregistered tunnel connection connIndex=1 event=0 ip=2606:4700:a0::8
-2026-10-20T04:47:07Z ERR Connection terminated connIndex=1
-2026-10-20T04:47:07Z INF Unregistered tunnel connection connIndex=3 event=0 ip=2606:4700:a8::9
-2026-10-20T04:47:07Z INF Unregistered tunnel connection connIndex=0 event=0 ip=2606:4700:a8::2
-2026-10-20T04:47:07Z ERR Connection terminated connIndex=0
-2026-10-20T04:47:07Z ERR Connection terminated connIndex=3
-2026-10-20T04:47:07Z INF Unregistered tunnel connection connIndex=2 event=0 ip=2606:4700:a0::2
-2026-10-20T04:47:07Z ERR Connection terminated connIndex=2
-2026-10-20T04:47:07Z ERR no more connections active and exiting
-2026-10-20T04:47:07Z INF Tunnel server stopped
-2026-10-20T04:47:07Z INF Metrics server stopped
-nohup: ignoring input
-2026-10-20T04:51:09Z INF Starting tunnel tunnelID=26e62b30-6726-4c2e-9d66-6a0c18a673a1
-2026-10-20T04:51:09Z INF Version 2026.10.1 (Checksum 6376e8c77fabcb523d017d70d39daf00b42854964e43bc87d448a01bb0c8f805)
-2026-10-20T04:51:09Z INF GOOS: android, GOVersion: go1.27.2, GoArch: arm64
-2026-10-20T04:51:09Z INF Settings: map[cred-file:/data/data/com.termux/files/home/.cloudflared/26e62b30-6726-4c2e-9d66-6a0c18a673a1.json credentials-file:/data/data/com.termux/files/home/.cloudflared/26e62b30-6726-4c2e-9d66-6a0c18a673a1.json p:http2 protocol:http2]
-2026-10-20T04:51:09Z INF Environmental variables map[TUNNEL_ORIGIN_CERT:/data/data/com.termux/files/home/.cloudflared/cert.pem]
-2026-10-20T04:51:09Z INF Autoupdate frequency is set autoupdateFreq=86400000
-2026-10-20T04:51:09Z INF Generated Connector ID: c16e027b-78a7-46de-9a62-71b6a99c0909
-2026-10-20T04:51:09Z INF Initial protocol http2
-2026-10-20T04:51:10Z INF ICMP proxy will use 100.115.109.58 as source for IPv4
-2026-10-20T04:51:10Z INF ICMP proxy will use 2600:1003:b85b:6c7f:0:45:fd44:3301 in zone ccmni1 as source for IPv6
-2026-10-20T04:51:10Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="open /proc/sys/net/ipv4/ping_group_range: permission denied"
-2026-10-20T04:51:10Z INF ICMP proxy will use 100.115.109.58 as source for IPv4
-2026-10-20T04:51:10Z INF ICMP proxy will use 2600:1003:b85b:6c7f:0:45:fd44:3301 in zone ccmni1 as source for IPv6
-2026-10-20T04:51:10Z INF Starting metrics server on 127.0.0.1:20241/metrics
-2026-10-20T04:51:10Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::1
-2026-10-20T04:51:10Z INF +--------------------------------------------------------------------------------------+
-2026-10-20T04:51:10Z INF |                               CONNECTIVITY PRE-CHECKS                                |
-2026-10-20T04:51:10Z INF +--------------------------------------------------------------------------------------+
-2026-10-20T04:51:10Z INF |  COMPONENT         TARGET                     STATUS  DETAILS                        |
-2026-10-20T04:51:10Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully      |
-2026-10-20T04:51:10Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully      |
-2026-10-20T04:51:10Z INF |  UDP Connectivity  region1.v2.argotunnel.com  PASS    QUIC connection successful     |
-2026-10-20T04:51:10Z INF |  UDP Connectivity  region2.v2.argotunnel.com  PASS    QUIC connection successful     |
-2026-10-20T04:51:10Z INF |  TCP Connectivity  region1.v2.argotunnel.com  PASS    HTTP/2 connection successful   |
-2026-10-20T04:51:10Z INF |  TCP Connectivity  region2.v2.argotunnel.com  PASS    HTTP/2 connection successful   |
-2026-10-20T04:51:10Z INF |  Cloudflare API    api.cloudflare.com:443     PASS    API is reachable               |
-2026-10-20T04:51:10Z INF |                                                                                      |
-2026-10-20T04:51:10Z INF |  SUMMARY: Environment is healthy. cloudflared will use 'http2' as primary protocol.  |
-2026-10-20T04:51:10Z INF +--------------------------------------------------------------------------------------+
-2026-10-20T04:51:10Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=435a8b34-f36d-4e65-aa0b-103935eccd58 status=pass target=region1.v2.argotunnel.com
-2026-10-20T04:51:10Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=435a8b34-f36d-4e65-aa0b-103935eccd58 status=pass target=region2.v2.argotunnel.com
-2026-10-20T04:51:10Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=435a8b34-f36d-4e65-aa0b-103935eccd58 status=pass target=region1.v2.argotunnel.com
-2026-10-20T04:51:10Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=435a8b34-f36d-4e65-aa0b-103935eccd58 status=pass target=region2.v2.argotunnel.com
-2026-10-20T04:51:10Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=435a8b34-f36d-4e65-aa0b-103935eccd58 status=pass target=region1.v2.argotunnel.com
-2026-10-20T04:51:10Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=435a8b34-f36d-4e65-aa0b-103935eccd58 status=pass target=region2.v2.argotunnel.com
-2026-10-20T04:51:10Z INF precheck component="Cloudflare API" details="API is reachable" run_id=435a8b34-f36d-4e65-aa0b-103935eccd58 status=pass target=api.cloudflare.com:443
-2026-10-20T04:51:10Z INF precheck complete hard_fail=false run_id=435a8b34-f36d-4e65-aa0b-103935eccd58 suggested_protocol=http2
-2026-10-20T04:51:10Z INF Registered tunnel connection connIndex=0 connection=73f2e716-d335-458e-b364-ddb339a4495e event=0 ip=2606:4700:a8::1 location=iad11 protocol=http2
-2026-10-20T04:51:10Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=1 event=0 ip=2606:4700:a0::2
-2026-10-20T04:51:11Z INF Registered tunnel connection connIndex=1 connection=d6aa3d73-52f0-4505-a5f3-ee0746acd67b event=0 ip=2606:4700:a0::2 location=iad17 protocol=http2
-2026-10-20T04:51:11Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=2 event=0 ip=2606:4700:a0::7
-2026-10-20T04:51:12Z INF Registered tunnel connection connIndex=2 connection=76825db7-fdca-4eaf-9438-e9bfe3605c54 event=0 ip=2606:4700:a0::7 location=iad10 protocol=http2
-2026-10-20T04:51:12Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=3 event=0 ip=2606:4700:a8::2
-2026-10-20T04:51:13Z INF Registered tunnel connection connIndex=3 connection=c0f6a4e3-aee9-4127-895f-563757d7f8f8 event=0 ip=2606:4700:a8::2 location=iad08 protocol=http2
-2026-10-20T04:56:36Z INF Initiating graceful shutdown due to signal terminated ...
-2026-10-20T04:56:37Z INF Unregistered tunnel connection connIndex=2 event=0 ip=2606:4700:a0::7
-2026-10-20T04:56:37Z ERR Connection terminated connIndex=2
-2026-10-20T04:56:37Z INF Unregistered tunnel connection connIndex=3 event=0 ip=2606:4700:a8::2
-2026-10-20T04:56:37Z INF Unregistered tunnel connection connIndex=0 event=0 ip=2606:4700:a8::1
-2026-10-20T04:56:37Z ERR Connection terminated connIndex=0
-2026-10-20T04:56:37Z ERR Connection terminated connIndex=3
-2026-10-20T04:56:37Z INF Unregistered tunnel connection connIndex=1 event=0 ip=2606:4700:a0::2
-2026-10-20T04:56:37Z ERR Connection terminated connIndex=1
-2026-10-20T04:56:37Z ERR no more connections active and exiting
-2026-10-20T04:56:37Z INF Tunnel server stopped
-2026-10-20T04:56:37Z INF Metrics server stopped
+2026-10-21T20:23:17Z INF Starting tunnel tunnelID=54868634-2fb3-42ef-add9-fd10b03f665a
+2026-10-21T20:23:17Z INF Version 2026.10.2 (Checksum fcc1855f41fa84a440dcc7c08525367b01ef4458835f349e268b548d5a730e93)
+2026-10-21T20:23:17Z INF GOOS: android, GOVersion: go1.27.2, GoArch: arm64
+2026-10-21T20:23:17Z INF Settings: map[config:/data/data/com.termux/files/home/.cloudflared/config.yml cred-file:/data/data/com.termux/files/home/.cloudflared/54868634-2fb3-42ef-add9-fd10b03f665a.json credentials-file:/data/data/com.termux/files/home/.cloudflared/54868634-2fb3-42ef-add9-fd10b03f665a.json p:http2 protocol:http2]
+2026-10-21T20:23:17Z INF Autoupdate frequency is set autoupdateFreq=86400000
+2026-10-21T20:23:17Z INF Generated Connector ID: 275903e6-791f-4f28-b118-95e4a6d9e6f8
+2026-10-21T20:23:17Z INF Initial protocol http2
+2026-10-21T20:23:17Z INF ICMP proxy will use 100.105.166.71 as source for IPv4
+2026-10-21T20:23:17Z INF ICMP proxy will use 2600:1003:b862:f8a5:0:4f:1716:be01 in zone ccmni1 as source for IPv6
+2026-10-21T20:23:17Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="open /proc/sys/net/ipv4/ping_group_range: permission denied"
+2026-10-21T20:23:17Z INF ICMP proxy will use 100.105.166.71 as source for IPv4
+2026-10-21T20:23:17Z INF ICMP proxy will use 2600:1003:b862:f8a5:0:4f:1716:be01 in zone ccmni1 as source for IPv6
+2026-10-21T20:23:17Z INF Starting metrics server on 127.0.0.1:20242/metrics
+2026-10-21T20:23:17Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:18Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:23:18Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:18Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:18Z INF +--------------------------------------------------------------------------------------+
+2026-10-21T20:23:18Z INF |                               CONNECTIVITY PRE-CHECKS                                |
+2026-10-21T20:23:18Z INF +--------------------------------------------------------------------------------------+
+2026-10-21T20:23:18Z INF |  COMPONENT         TARGET                     STATUS  DETAILS                        |
+2026-10-21T20:23:18Z INF |  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully      |
+2026-10-21T20:23:18Z INF |  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully      |
+2026-10-21T20:23:18Z INF |  UDP Connectivity  region1.v2.argotunnel.com  PASS    QUIC connection successful     |
+2026-10-21T20:23:18Z INF |  UDP Connectivity  region2.v2.argotunnel.com  PASS    QUIC connection successful     |
+2026-10-21T20:23:18Z INF |  TCP Connectivity  region1.v2.argotunnel.com  PASS    HTTP/2 connection successful   |
+2026-10-21T20:23:18Z INF |  TCP Connectivity  region2.v2.argotunnel.com  PASS    HTTP/2 connection successful   |
+2026-10-21T20:23:18Z INF |  Cloudflare API    api.cloudflare.com:443     PASS    API is reachable               |
+2026-10-21T20:23:18Z INF |                                                                                      |
+2026-10-21T20:23:18Z INF |  SUMMARY: Environment is healthy. cloudflared will use 'http2' as primary protocol.  |
+2026-10-21T20:23:18Z INF +--------------------------------------------------------------------------------------+
+2026-10-21T20:23:18Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=ea6951ba-17e4-40f7-8d1e-2e912a2cad03 status=pass target=region1.v2.argotunnel.com
+2026-10-21T20:23:18Z INF precheck component="DNS Resolution" details="DNS Resolved successfully" run_id=ea6951ba-17e4-40f7-8d1e-2e912a2cad03 status=pass target=region2.v2.argotunnel.com
+2026-10-21T20:23:18Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=ea6951ba-17e4-40f7-8d1e-2e912a2cad03 status=pass target=region1.v2.argotunnel.com
+2026-10-21T20:23:18Z INF precheck component="UDP Connectivity" details="QUIC connection successful" run_id=ea6951ba-17e4-40f7-8d1e-2e912a2cad03 status=pass target=region2.v2.argotunnel.com
+2026-10-21T20:23:18Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=ea6951ba-17e4-40f7-8d1e-2e912a2cad03 status=pass target=region1.v2.argotunnel.com
+2026-10-21T20:23:18Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=ea6951ba-17e4-40f7-8d1e-2e912a2cad03 status=pass target=region2.v2.argotunnel.com
+2026-10-21T20:23:18Z INF precheck component="Cloudflare API" details="API is reachable" run_id=ea6951ba-17e4-40f7-8d1e-2e912a2cad03 status=pass target=api.cloudflare.com:443
+2026-10-21T20:23:18Z INF precheck complete hard_fail=false run_id=ea6951ba-17e4-40f7-8d1e-2e912a2cad03 suggested_protocol=http2
+2026-10-21T20:23:19Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:20Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:23:20Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:20Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:23Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:24Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:23:24Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:24Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:26Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:26Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:23:26Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:26Z INF Retrying connection in up to 16s connIndex=0 event=0 ip=2606:4700:a8::9
+nel connection connIndex=0 event=0 ip=2606:4700:a0::5
+2026-10-21T20:23:17Z ERR Connection terminated connIndex=0
+2026-10-21T20:23:17Z ERR no more connections active and exiting
+2026-10-21T20:23:17Z INF Tunnel server stopped
+2026-10-21T20:23:17Z INF Metrics server stopped
