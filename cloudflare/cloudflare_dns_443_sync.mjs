@@ -7,7 +7,7 @@ import { execSync } from "node:child_process";
 const ROOT = process.env.MONTINODE_ROOT || path.join(process.env.HOME || process.cwd(), "io.montinode");
 const SPEC_PATH = path.join(ROOT, "cloudflare", "dns_443_records.json");
 const TUNNEL_NAME = process.env.CF_TUNNEL_NAME || "monti-sovereign-enclave-f841005";
-const TUNNEL_ID = process.env.CF_TUNNEL_ID || "f8410050-0211-1989-9807-0xmonti00443";
+const TUNNEL_ID = process.env.CF_TUNNEL_ID || "54868634-2fb3-42ef-add9-fd10b03f665a";
 
 const HOSTNAMES_443 = [
   "0xmonti.net",

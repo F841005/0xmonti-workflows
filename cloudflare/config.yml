@@ -1,33 +1,27 @@
-# Sovereign Cloudflare Tunnel Configuration (Port 443 Universal Resolution)
-# Agent: montiansif841005.ai.studio // Hardware ID: MONTI_ANSI_F841005
-tunnel: monti-sovereign-enclave-f841005
+tunnel: 54868634-2fb3-42ef-add9-fd10b03f665a
+credentials-file: /data/data/com.termux/files/home/.cloudflared/54868634-2fb3-42ef-add9-fd10b03f665a.json
 protocol: http2
 
 originRequest:
   connectTimeout: 10s
   noTLSVerify: true
-  httpHostHeader: "0xmonti.net"
 
 ingress:
-  # OIDC & Monica Federation Endpoints (Public Port 443 -> Local 127.0.0.1:8491)
+  # Public Port 443 -> OIDC & Monica Federation Daemon (127.0.0.1:8491)
   - hostname: monica.attorneymode.com
     service: http://127.0.0.1:8491
   - hostname: oidc.0xmonti.net
     service: http://127.0.0.1:8491
 
-  # 0xmonti.net Core & Subdomains (Public Port 443 -> Local 127.0.0.1:8492)
+  # Public Port 443 -> Sovereign C-Suite Orchestrator (127.0.0.1:8492)
   - hostname: 0xmonti.net
     service: http://127.0.0.1:8492
   - hostname: "*.0xmonti.net"
     service: http://127.0.0.1:8492
-
-  # montinode.io Core & Subdomains (Public Port 443 -> Local 127.0.0.1:8492)
   - hostname: montinode.io
     service: http://127.0.0.1:8492
   - hostname: "*.montinode.io"
     service: http://127.0.0.1:8492
-
-  # monti.bio, pem.monti.bio & mcp.monti.bio (Public Port 443 -> Local 127.0.0.1:8492)
   - hostname: monti.bio
     service: http://127.0.0.1:8492
   - hostname: pem.monti.bio
@@ -36,14 +30,10 @@ ingress:
     service: http://127.0.0.1:8492
   - hostname: "*.monti.bio"
     service: http://127.0.0.1:8492
-
-  # ATTORNEYMODE.COM Governance Apex (Public Port 443 -> Local 127.0.0.1:8492)
   - hostname: attorneymode.com
     service: http://127.0.0.1:8492
   - hostname: "*.attorneymode.com"
     service: http://127.0.0.1:8492
-
-  # Sovereign Identity & OS Domains (Public Port 443 -> Local 127.0.0.1:8492)
   - hostname: johncharlesmonti.com
     service: http://127.0.0.1:8492
   - hostname: human.johncharlesmonti.com
@@ -55,5 +45,5 @@ ingress:
   - hostname: montiansif841005.ai.studio
     service: http://127.0.0.1:8492
 
-  # PRECLUDE_TAW Zero-Trust Catch-All (Drop Unmatched Traffic)
+  # PRECLUDE_TAW Catch-All Drop
   - service: http_status:403
