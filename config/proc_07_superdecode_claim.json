@@ -18,5 +18,14 @@
     "45_CFR_164_312",
     "47_CFR_Part15",
     "47_USC_227"
-  ]
+  ],
+  "montiBraveWallet": "0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4",
+  "wallets": {
+    "montiBraveWallet": {
+      "label": "MONTI Brave Wallet",
+      "address": "0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4",
+      "type": "EVM",
+      "source": "Brave Wallet"
+    }
+  }
 }

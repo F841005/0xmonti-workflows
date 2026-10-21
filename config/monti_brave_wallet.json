@@ -1,0 +1,9 @@
+{
+  "walletLabel": "MONTI Brave Wallet",
+  "walletAddress": "0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4",
+  "walletType": "EVM",
+  "source": "Brave Wallet",
+  "linkedProcess": "PROC_07_SUPERDECODE_CLAIM",
+  "targetRuntime": "/sdcard/F841005WV22ZL01/MONTI/F841005Superdecode_claim.js",
+  "addedAt": "2026-10-21T15:21:48Z"
+}
