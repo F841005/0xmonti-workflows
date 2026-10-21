@@ -1,0 +1,59 @@
+# Sovereign Cloudflare Tunnel Configuration (Port 443 Universal Resolution)
+# Agent: montiansif841005.ai.studio // Hardware ID: MONTI_ANSI_F841005
+tunnel: monti-sovereign-enclave-f841005
+protocol: http2
+
+originRequest:
+  connectTimeout: 10s
+  noTLSVerify: true
+  httpHostHeader: "0xmonti.net"
+
+ingress:
+  # OIDC & Monica Federation Endpoints (Public Port 443 -> Local 127.0.0.1:8491)
+  - hostname: monica.attorneymode.com
+    service: http://127.0.0.1:8491
+  - hostname: oidc.0xmonti.net
+    service: http://127.0.0.1:8491
+
+  # 0xmonti.net Core & Subdomains (Public Port 443 -> Local 127.0.0.1:8492)
+  - hostname: 0xmonti.net
+    service: http://127.0.0.1:8492
+  - hostname: "*.0xmonti.net"
+    service: http://127.0.0.1:8492
+
+  # montinode.io Core & Subdomains (Public Port 443 -> Local 127.0.0.1:8492)
+  - hostname: montinode.io
+    service: http://127.0.0.1:8492
+  - hostname: "*.montinode.io"
+    service: http://127.0.0.1:8492
+
+  # monti.bio, pem.monti.bio & mcp.monti.bio (Public Port 443 -> Local 127.0.0.1:8492)
+  - hostname: monti.bio
+    service: http://127.0.0.1:8492
+  - hostname: pem.monti.bio
+    service: http://127.0.0.1:8492
+  - hostname: mcp.monti.bio
+    service: http://127.0.0.1:8492
+  - hostname: "*.monti.bio"
+    service: http://127.0.0.1:8492
+
+  # ATTORNEYMODE.COM Governance Apex (Public Port 443 -> Local 127.0.0.1:8492)
+  - hostname: attorneymode.com
+    service: http://127.0.0.1:8492
+  - hostname: "*.attorneymode.com"
+    service: http://127.0.0.1:8492
+
+  # Sovereign Identity & OS Domains (Public Port 443 -> Local 127.0.0.1:8492)
+  - hostname: johncharlesmonti.com
+    service: http://127.0.0.1:8492
+  - hostname: human.johncharlesmonti.com
+    service: http://127.0.0.1:8492
+  - hostname: montiai.com
+    service: http://127.0.0.1:8492
+  - hostname: montidroid.com
+    service: http://127.0.0.1:8492
+  - hostname: montiansif841005.ai.studio
+    service: http://127.0.0.1:8492
+
+  # PRECLUDE_TAW Zero-Trust Catch-All (Drop Unmatched Traffic)
+  - service: http_status:403

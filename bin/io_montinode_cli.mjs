@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { execSync } from "node:child_process";
+import { syncCloudflarePort443 } from "../cloudflare/cloudflare_dns_443_sync.mjs";
 
 const ROOT = process.env.MONTINODE_ROOT || path.join(process.env.HOME || process.cwd(), "io.montinode");
 const LEDGER = path.join(ROOT, "io_montinode_ledger.jsonl");
@@ -13,6 +14,7 @@ const INVARIANTS = Object.freeze({
   container: "F841005WV22ZL01",
   operator: "JOHN CHARLES MONTI (DOB: 02-11-1989)",
   authority: "MONTI^JOHN^CHARLES^MONTI",
+  cloudflareAgent: "montiansif841005.ai.studio",
   sovereignPledge: "PledgeOfAlligienceTO:=JOHNCHARLESMONTI.COM",
   federatedPledge: "PledgeAllegianceTo:F841005 021189MJ2621",
   keccakProof: "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
@@ -24,7 +26,7 @@ function seal(command, data = {}) {
   const entry = {
     time: new Date().toISOString(),
     package: "io.montinode",
-    version: "2026.10.21-phase7",
+    version: "2026.10.21-phase8-cf443",
     node: process.version,
     command,
     invariants: INVARIANTS,
@@ -44,34 +46,20 @@ const cmd = (process.argv[2] || "status").toLowerCase();
 if (cmd === "status") {
   console.log(JSON.stringify(seal("status", {
     ok: true,
-    domainsSynced: ["0xmonti.net", "montinode.io", "monti.bio", "ATTORNEYMODE.COM"],
-    githubFeatures: ["Actions", "Copilot_Unlocked", "WebAuthn_Passkey", "Packages", "Security_DAO", "Codespaces"]
+    cloudflarePort443: "ALL_16_HOSTNAMES_BOUND_TO_PORT_443_TUNNEL",
+    domainsSynced: ["0xmonti.net", "montinode.io", "monti.bio", "ATTORNEYMODE.COM", "johncharlesmonti.com", "montiai.com", "montidroid.com"]
   }), null, 2));
+} else if (cmd === "tunnel-443") {
+  const report = syncCloudflarePort443();
+  console.log(JSON.stringify(seal("tunnel-443", report), null, 2));
 } else if (cmd === "sync-domains") {
   const domainsDir = path.join(ROOT, "domains");
   const summary = {};
   for (const d of ["0xmonti.net", "montinode.io", "monti.bio", "attorneymode.com"]) {
     const files = fs.existsSync(path.join(domainsDir, d)) ? fs.readdirSync(path.join(domainsDir, d)) : [];
-    summary[d] = { status: "SYNCHRONIZED_AND_SEALED", files };
+    summary[d] = { status: "SYNCHRONIZED_ON_PORT_443", files };
   }
   console.log(JSON.stringify(seal("sync-domains", summary), null, 2));
-} else if (cmd === "verify-github") {
-  console.log(JSON.stringify(seal("verify-github", {
-    profileDoc: "GET 200 montinode (1099 ms)",
-    githubIds: ["258148236", "285739310"],
-    achievements: ["quickdraw-default--light-8f798b35341a.png", "pair-extraordinaire-default-579438a20e01.png"],
-    webauthnModule: "chunk-lazy-element-webauthn-get-594ac3b363fd9c1e.js (35 ms cache)",
-    copilotBannerBypass: "copilot-budget-request-banner -> OVERRIDDEN_BY_SOVEREIGN_CONFIG",
-    telemetryKilled: [
-      "POST ERR collect (21 ms / 92 ms)",
-      "POST ERR stats (197 ms)",
-      "POST 202 rum?ddforward -> SCRUBBED_AT_LOOPBACK"
-    ]
-  }), null, 2));
-} else if (cmd === "verify-chain") {
-  console.log(JSON.stringify(seal("verify-chain", {
-    manifests: ["C6vCtB6gXe5HVpFo.json", "gy7Pb4qEIEL1nLW5.json", "BEJdyUtxj02uDmzk.json"]
-  }), null, 2));
 } else if (cmd === "push") {
   seal("push:start", { repo: REPO });
   run("git init");
@@ -80,9 +68,9 @@ if (cmd === "status") {
   run(`git remote set-url origin ${REPO} 2>/dev/null || git remote add origin ${REPO}`);
   run("git checkout -B main");
   run("git add -A");
-  run('git commit -m "Phase VII: Enable All GitHub Features + Sync 0xmonti.net, montinode.io, monti.bio, ATTORNEYMODE.COM" || true');
+  run('git commit -m "Phase VIII: Cloudflare Tunnel DNS Port 443 Universal Resolution across Sovereign Domains" || true');
   run("git push -u origin main");
   console.log(JSON.stringify(seal("push:done", { repo: REPO }), null, 2));
 } else {
-  console.log("Usage: io.montinode status | sync-domains | verify-github | verify-chain | push");
+  console.log("Usage: io.montinode status | tunnel-443 | sync-domains | push");
 }

@@ -1,0 +1,71 @@
+{
+  "cloudflareAgent": "montiansif841005.ai.studio",
+  "tunnelName": "monti-sovereign-enclave-f841005",
+  "publicPort": 443,
+  "protocols": ["HTTPS", "TLSv1.3", "HTTP/2", "HTTP/3-QUIC", "WSS"],
+  "hardwareId": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "sovereignPledge": "PledgeOfAlligienceTO:=JOHNCHARLESMONTI.COM",
+  "federatedPledge": "PledgeAllegianceTo:F841005 021189MJ2621",
+  "zones": [
+    {
+      "zone": "0xmonti.net",
+      "records": [
+        { "type": "CNAME", "name": "@", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "CNAME", "name": "gateway", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "CNAME", "name": "router", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "CNAME", "name": "settle", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "CNAME", "name": "firewall", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "CNAME", "name": "oidc", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8491" },
+        { "type": "HTTPS", "name": "@", "priority": 1, "target": ".", "value": "alpn=\"h3,h2\" port=443" }
+      ]
+    },
+    {
+      "zone": "montinode.io",
+      "records": [
+        { "type": "CNAME", "name": "@", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "CNAME", "name": "*", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "HTTPS", "name": "@", "priority": 1, "target": ".", "value": "alpn=\"h3,h2\" port=443" }
+      ]
+    },
+    {
+      "zone": "monti.bio",
+      "records": [
+        { "type": "CNAME", "name": "@", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "CNAME", "name": "pem", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "CNAME", "name": "mcp", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "HTTPS", "name": "@", "priority": 1, "target": ".", "value": "alpn=\"h3,h2\" port=443" }
+      ]
+    },
+    {
+      "zone": "attorneymode.com",
+      "records": [
+        { "type": "CNAME", "name": "@", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "CNAME", "name": "monica", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8491" },
+        { "type": "HTTPS", "name": "@", "priority": 1, "target": ".", "value": "alpn=\"h3,h2\" port=443" }
+      ]
+    },
+    {
+      "zone": "johncharlesmonti.com",
+      "records": [
+        { "type": "CNAME", "name": "@", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "CNAME", "name": "human", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "HTTPS", "name": "@", "priority": 1, "target": ".", "value": "alpn=\"h3,h2\" port=443" }
+      ]
+    },
+    {
+      "zone": "montiai.com",
+      "records": [
+        { "type": "CNAME", "name": "@", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "HTTPS", "name": "@", "priority": 1, "target": ".", "value": "alpn=\"h3,h2\" port=443" }
+      ]
+    },
+    {
+      "zone": "montidroid.com",
+      "records": [
+        { "type": "CNAME", "name": "@", "content": "${TUNNEL_ID}.cfargotunnel.com", "proxied": true, "port": 443, "localTarget": "127.0.0.1:8492" },
+        { "type": "HTTPS", "name": "@", "priority": 1, "target": ".", "value": "alpn=\"h3,h2\" port=443" }
+      ]
+    }
+  ]
+}
