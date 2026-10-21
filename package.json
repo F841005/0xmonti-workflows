@@ -35,14 +35,17 @@
     "verify:security": "node src/security/anti_redirect_guard.mjs"
   },
   "peerDependencies": {
-    "@f841005/monticore-1": "git+https://github.com/F841005/monticore-1.git#main",
+    "@f841005/0xmonti-workflows": "git+https://github.com/F841005/0xmonti-workflows.git#main",
     "@f841005/monti.bio": "git+https://github.com/F841005/monti.bio.git#main",
-    "@f841005/0xmonti-workflows": "git+https://github.com/F841005/0xmonti-workflows.git#main"
+    "@f841005/monticore-1": "git+https://github.com/F841005/monticore-1.git#main"
   },
   "overrides": {
     "@f841005/monti-ansi-f841005": "git+https://github.com/F841005/MONTI_ANSI_F841005.git#main"
   },
   "engines": {
     "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0"
   }
 }
