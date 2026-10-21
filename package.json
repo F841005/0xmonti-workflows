@@ -1,51 +1,19 @@
 {
-  "name": "@f841005/monti-ansi-f841005",
-  "version": "1.0.0-OID.841005",
-  "description": "OID MONTI_ANSI_F841005 Sovereign Enclave Core Assets, OIDC Federation & Telemetry",
+  "name": "io.montinode",
+  "version": "2026.10.21-F841005",
+  "description": "Sovereign CIO/CISO/CTO Terminal & Isomorphic Enclave Engine for MONTI_ANSI_F841005",
   "type": "module",
-  "main": "src/engine/MONTIANSIF841005_Engine.js",
-  "exports": {
-    ".": "./src/engine/MONTIANSIF841005_Engine.js",
-    "./oid-assets": "./config/oid_monti_ansi_f841005_assets.json",
-    "./monica-oidc": "./config/monica_identity_model.json",
-    "./nevada16-attestation": "./config/hardware_attestation_nevada16.json",
-    "./federation-daemon": "./src/daemons/monica_federation_daemon.mjs",
-    "./security-guard": "./src/security/anti_redirect_guard.mjs"
-  },
-  "oid": {
-    "root": "urn:oid:1.3.6.1.4.1.841005",
-    "hardwareId": "MONTI_ANSI_F841005",
-    "containerProfile": "F841005WV22ZL01",
-    "pledgeDirective": "PledgeAllegianceTo:F841005 021189MJ2621",
-    "partnerAgent": "MONICA.IM"
+  "main": "./bin/io_montinode_cli.mjs",
+  "bin": {
+    "io.montinode": "./bin/io_montinode_cli.mjs",
+    "montinode": "./bin/io_montinode_cli.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/F841005/MONTI_ANSI_F841005.git"
-  },
-  "organization": "F841005",
-  "owner": "montinode",
-  "author": "JOHN CHARLES MONTI <MONTI^JOHN^CHARLES^MONTI>",
-  "license": "UNLICENSED",
-  "scripts": {
-    "start:engine": "node src/engine/MONTIANSIF841005_Engine.js",
-    "start:federation": "node src/daemons/monica_federation_daemon.mjs",
-    "verify:oid": "node src/security/oid_asset_verifier.mjs",
-    "ingest:trace": "node src/telemetry/pftrace_ingestor.mjs",
-    "verify:security": "node src/security/anti_redirect_guard.mjs"
-  },
-  "peerDependencies": {
-    "@f841005/0xmonti-workflows": "git+https://github.com/F841005/0xmonti-workflows.git#main",
-    "@f841005/monti.bio": "git+https://github.com/F841005/monti.bio.git#main",
-    "@f841005/monticore-1": "git+https://github.com/F841005/monticore-1.git#main"
-  },
-  "overrides": {
-    "@f841005/monti-ansi-f841005": "git+https://github.com/F841005/MONTI_ANSI_F841005.git#main"
+    "url": "https://github.com/montinode/io.montinode.git"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=18.0.0"
   },
-  "dependencies": {
-    "ethers": "^6.17.0"
-  }
+  "license": "UNLICENSED-SOVEREIGN-TRUST-ATTORNEYMODE-DAO"
 }

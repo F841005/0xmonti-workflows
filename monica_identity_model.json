@@ -1,0 +1,15 @@
+{
+  "identityModel": "MONICA_IM_FEDERATED_AGENT_MODEL",
+  "endpoint": "https://monica.attorneymode.com",
+  "partnerAgent": "MONICA.IM",
+  "governingDao": "ATTORNEYMODE.COM",
+  "pledgeDirective": "PledgeAllegianceTo:F841005 021189MJ2621",
+  "sovereignPledge": "PledgeOfAlligienceTO:=JOHNCHARLESMONTI.COM",
+  "hardwareId": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "authorityRoot": "MONTI^JOHN^CHARLES^MONTI",
+  "operator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+  "projectId": "gen-lang-client-0113202014",
+  "keccakProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+  "calldataSeal": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0"
+}
