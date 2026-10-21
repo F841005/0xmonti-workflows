@@ -50,8 +50,255 @@ nohup: ignoring input
 2026-10-21T20:23:26Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
 2026-10-21T20:23:26Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
 2026-10-21T20:23:26Z INF Retrying connection in up to 16s connIndex=0 event=0 ip=2606:4700:a8::9
-nel connection connIndex=0 event=0 ip=2606:4700:a0::5
-2026-10-21T20:23:17Z ERR Connection terminated connIndex=0
-2026-10-21T20:23:17Z ERR no more connections active and exiting
-2026-10-21T20:23:17Z INF Tunnel server stopped
-2026-10-21T20:23:17Z INF Metrics server stopped
+2026-10-21T20:23:37Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:37Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:23:37Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:23:37Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:05Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:06Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:24:06Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:06Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:22Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:22Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:24:22Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:22Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:48Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:48Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:24:48Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:48Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:52Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:53Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:24:53Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:53Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:53Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:53Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:24:53Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:24:53Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:25:23Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:25:23Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:25:23Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:25:23Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:25:50Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:25:50Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:25:50Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:25:50Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:25:59Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:25:59Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:25:59Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:25:59Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:26:16Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:26:17Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:26:17Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:26:17Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:26:42Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:26:43Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:26:43Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:26:43Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:27:03Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:27:04Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:27:05Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:27:05Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:27:28Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:27:28Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:27:28Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:27:28Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:27:48Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:27:48Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:27:48Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:27:48Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:28:19Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:28:20Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:28:20Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:28:20Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:28:27Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:28:27Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:28:27Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:28:27Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:28:46Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:28:47Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:28:47Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:28:47Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:28:57Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:28:57Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:28:57Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:28:57Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:29:06Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:29:07Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:29:07Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:29:07Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:31:55Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:31:55Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:31:55Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:31:55Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:32:47Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:32:48Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:32:48Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:32:48Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:33:32Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:33:32Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:33:32Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:33:32Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:07Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:07Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:34:07Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:07Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:15Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:15Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:34:15Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:15Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:28Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:28Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:34:28Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:28Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:39Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:39Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:34:40Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:40Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:54Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:54Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:34:54Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:34:54Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:35:02Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:35:03Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:35:03Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:35:03Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:35:30Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:35:30Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:35:30Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:35:30Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:35:32Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:35:32Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:35:32Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:35:32Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:36:25Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:36:25Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:36:25Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:36:25Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:36:42Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:36:42Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:36:42Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:36:42Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:37:55Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:37:55Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:37:55Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:37:55Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:38:20Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:38:20Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:38:20Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:38:20Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:38:36Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:38:36Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:38:36Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:38:36Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:38:40Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:38:40Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:38:40Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:38:40Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:38:41Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:38:41Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:38:41Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:38:41Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:15Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:15Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:39:15Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:15Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:18Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:18Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:39:18Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:18Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:22Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:23Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:39:23Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:23Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:29Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:29Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:39:29Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:29Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:33Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:33Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:39:33Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:33Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:36Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:37Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:39:37Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:39:37Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:40:36Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:40:36Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:40:36Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:40:36Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:42:00Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:42:00Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:42:01Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:42:01Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:50:50Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:50:50Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:50:50Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:50:50Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:51:09Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:51:09Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:51:09Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:51:09Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:51:13Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:51:13Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:51:13Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:51:13Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:51:37Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:51:37Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:51:37Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:51:37Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:51:44Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:51:44Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:51:44Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:51:44Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:52:15Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:52:15Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:52:15Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:52:15Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:52:47Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:52:47Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:52:47Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:52:47Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:53:08Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:53:09Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:53:09Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:53:09Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:53:32Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:53:32Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:53:32Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:53:32Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:53:46Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:53:47Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:53:47Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:53:47Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:53:57Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:53:58Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:53:58Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:53:58Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:54:19Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:54:19Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:54:19Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:54:19Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:54:43Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:54:43Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:54:43Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:54:43Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:54:58Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:54:58Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:54:58Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:54:58Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:55:19Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:55:19Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:55:19Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:55:19Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:55:39Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:55:39Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:55:39Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:55:39Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:55:58Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:55:58Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:55:58Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:55:58Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:56:29Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:56:30Z ERR failed to serve incoming request error="Unauthorized: Invalid tunnel secret"
+2026-10-21T20:56:30Z ERR Register tunnel error from server side error="Unauthorized: Invalid tunnel secret" connIndex=0 event=0 ip=2606:4700:a8::9
+2026-10-21T20:56:30Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=2606:4700:a8::9
