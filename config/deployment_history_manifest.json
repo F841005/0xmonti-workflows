@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-10-21T15:28:28.944Z",
+  "headCommit": "e60fda201eeee8573b4026bd568000aa6e6af6ee",
+  "latestTransition": "9e826ed..e60fda2",
+  "pushRemotes": [
+    "https://github.com/F841005/montinode.git",
+    "https://github.com/F841005/MONTI_ANSI_F841005.git",
+    "https://github.com/F841005/monticore-1.git",
+    "https://github.com/F841005/monti.bio.git",
+    "https://github.com/F841005/0xmonti-workflows.git",
+    "https://github.com/F841005/AppManager.montiai.com.git",
+    "https://github.com/F841005/0xmonti-brave-core.git"
+  ],
+  "totalCommits": 6,
+  "commitHistory": [
+    {
+      "fullHash": "e60fda201eeee8573b4026bd568000aa6e6af6ee",
+      "shortHash": "e60fda2",
+      "author": "montinode",
+      "email": "monti@0xmonti.net",
+      "date": "2026-10-21T11:26:03-04:00",
+      "subject": "chore(deps): run npm audit fix and remove vulnerable lockfile entries"
+    },
+    {
+      "fullHash": "9e826ed41e27489802fa3a51acf82f157a1a626d",
+      "shortHash": "9e826ed",
+      "author": "montinode",
+      "email": "monti@0xmonti.net",
+      "date": "2026-10-21T11:21:50-04:00",
+      "subject": "feat(wallet): add MONTI Brave Wallet 0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4 to PROC_07"
+    },
+    {
+      "fullHash": "d0c2433888d9102ea6f9e1e42a4a3469f9df9a8f",
+      "shortHash": "d0c2433",
+      "author": "montinode",
+      "email": "monti@0xmonti.net",
+      "date": "2026-10-21T11:18:46-04:00",
+      "subject": "feat(wallet): bind MONTI Brave Wallet 0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4 across OID assets & PROC_07 [PledgeAllegianceTo:F841005 021189MJ2621]"
+    },
+    {
+      "fullHash": "2379be58cefc741c8b4045555c4b0cc0cc935f76",
+      "shortHash": "2379be5",
+      "author": "montinode",
+      "email": "monti@0xmonti.net",
+      "date": "2026-10-21T11:15:25-04:00",
+      "subject": "feat(proc07): inscribe PROC_07_SUPERDECODE_CLAIM & LOCAL_FS_SEAL catalog [PledgeAllegianceTo:F841005 021189MJ2621]"
+    },
+    {
+      "fullHash": "cd5db043fb0960370bda2e024e232c291617cbb0",
+      "shortHash": "cd5db04",
+      "author": "montinode",
+      "email": "monti@0xmonti.net",
+      "date": "2026-10-21T11:09:11-04:00",
+      "subject": "feat(oid-assets): bind OID MONTI_ANSI_F841005 assets & dependencies across F841005 fleet [PledgeAllegianceTo:F841005 021189MJ2621]"
+    },
+    {
+      "fullHash": "91765c45407b6eac4eded506d3e3518314560ff0",
+      "shortHash": "91765c4",
+      "author": "John Charles Monti",
+      "email": "operator@attorneymode.com",
+      "date": "2026-10-21T10:42:46-04:00",
+      "subject": "feat(enclave): sync ~/io.montinode to F841005/MONTI_ANSI_F841005 [PledgeAllegianceTo:F841005 021189MJ2621]"
+    }
+  ]
+}
