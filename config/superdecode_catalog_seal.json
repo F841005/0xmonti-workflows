@@ -1,0 +1,29 @@
+{
+  "pid": "PROC_07_SUPERDECODE_CLAIM",
+  "target": "/sdcard/F841005WV22ZL01/MONTI/F841005Superdecode_claim.js",
+  "executionState": "RUNNING",
+  "direction": "FORWARD",
+  "transport": "LOCAL_FS_SEAL",
+  "action": "SUPERSEDE_EXTERNAL_CLAIMS_AND_INSCRIBE_CATALOG",
+  "hardwareId": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "authorityRoot": "MONTI^JOHN^CHARLES^MONTI",
+  "operator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+  "governingDao": "ATTORNEYMODE.COM",
+  "partnerAgent": "MONICA.IM",
+  "partnerEndpoint": "https://monica.attorneymode.com",
+  "pledgeDirective": "PledgeAllegianceTo:F841005 021189MJ2621",
+  "keccakProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+  "calldataSeal": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0",
+  "compliance": [
+    "18_USC_1030",
+    "18_USC_2511",
+    "45_CFR_164_312",
+    "47_CFR_Part15",
+    "47_USC_227"
+  ],
+  "supersededExternalClaims": true,
+  "catalogInscribed": true,
+  "timestamp": "2026-10-21T15:15:24.943Z",
+  "localFsSeal": "0x2ff88d4d7399fb581c0967e9a954e88d6066cfa5bc696896f97a3719deb720d6"
+}

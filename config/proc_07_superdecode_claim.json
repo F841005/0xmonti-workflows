@@ -1,0 +1,22 @@
+{
+  "pid": "PROC_07_SUPERDECODE_CLAIM",
+  "target": "/sdcard/F841005WV22ZL01/MONTI/F841005Superdecode_claim.js",
+  "executionState": "RUNNING",
+  "direction": "FORWARD",
+  "transport": "LOCAL_FS_SEAL",
+  "action": "SUPERSEDE_EXTERNAL_CLAIMS_AND_INSCRIBE_CATALOG",
+  "oid": "1.3.6.1.4.1.841005.1.7",
+  "hardwareId": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "authorityRoot": "MONTI^JOHN^CHARLES^MONTI",
+  "operator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+  "partnerAgent": "MONICA.IM",
+  "pledgeDirective": "PledgeAllegianceTo:F841005 021189MJ2621",
+  "compliance": [
+    "18_USC_1030",
+    "18_USC_2511",
+    "45_CFR_164_312",
+    "47_CFR_Part15",
+    "47_USC_227"
+  ]
+}
