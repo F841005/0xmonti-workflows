@@ -2,9 +2,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
-import { execSync } from "node:child_process";
 import { syncCloudflarePort443 } from "../cloudflare/cloudflare_dns_443_sync.mjs";
 import { executeCrossChainRpcBridge } from "../web3/crosschain_rpc_bridge.mjs";
+import { executeDevnetDeposit233 } from "../web3/devnet_deposit_233.mjs";
+import { executeSolanaFundingMatrix } from "../web3/solana_funding_matrix.mjs";
 
 const ROOT = process.env.MONTINODE_ROOT || path.join(process.env.HOME || process.cwd(), "io.montinode");
 const LEDGER = path.join(ROOT, "io_montinode_ledger.jsonl");
@@ -14,11 +15,9 @@ const INVARIANTS = Object.freeze({
   container: "F841005WV22ZL01",
   operator: "JOHN CHARLES MONTI (DOB: 02-11-1989)",
   authority: "MONTI^JOHN^CHARLES^MONTI",
-  cloudflareAgent: "montiansif841005.ai.studio",
   tunnelUuid: "54868634-2fb3-42ef-add9-fd10b03f665a",
   solanaDomainAddress: "H191L17jE26R1wGWQHAx5KQhBwSwHPMgzb2A66Hr9h37",
-  solanaConfirmedTx: "2aCem89C6i5ERCrgBxHgcaS5VAH3Hvu2FbUdGvxRgq1D4EbWruV3ShPJ5tvJLvrP5R9dsWjdTZiSSQxwTNh1VBcE",
-  baseL2Rpc: "https://api.developer.coinbase.com/rpc/v1/base/jeFEecZbvIrQIK1Z1PDheDOJ7eMOeG2f",
+  solanaDepositRecipient: "DBoMepCVsjsWLzKwbZ8275MagAk6fh4ctB8ZadQd21Ni",
   sovereignPledge: "PledgeOfAlligienceTO:=JOHNCHARLESMONTI.COM",
   federatedPledge: "PledgeAllegianceTo:F841005 021189MJ2621",
   keccakProof: "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
@@ -30,7 +29,7 @@ function seal(command, data = {}) {
   const entry = {
     time: new Date().toISOString(),
     package: "io.montinode",
-    version: "2026.10.21-phase11-web3",
+    version: "2026.10.21-phase13-solanafund",
     node: process.version,
     command,
     invariants: INVARIANTS,
@@ -43,7 +42,11 @@ function seal(command, data = {}) {
 
 const cmd = (process.argv[2] || "status").toLowerCase();
 
-if (cmd === "rpc-bridge") {
+if (cmd === "solana-fund") {
+  console.log(JSON.stringify(seal("solana-fund", executeSolanaFundingMatrix(process.argv[3] || "all")), null, 2));
+} else if (cmd === "deposit-devnet") {
+  console.log(JSON.stringify(seal("deposit-devnet", executeDevnetDeposit233()), null, 2));
+} else if (cmd === "rpc-bridge") {
   console.log(JSON.stringify(seal("rpc-bridge", executeCrossChainRpcBridge()), null, 2));
 } else if (cmd === "tunnel-443") {
   process.env.CF_TUNNEL_ID = "54868634-2fb3-42ef-add9-fd10b03f665a";
@@ -51,6 +54,11 @@ if (cmd === "rpc-bridge") {
 } else {
   console.log(JSON.stringify(seal("status", {
     ok: true,
-    commands: ["io.montinode status", "io.montinode rpc-bridge", "io.montinode tunnel-443"]
+    commands: [
+      "io.montinode solana-fund",
+      "io.montinode deposit-devnet",
+      "io.montinode rpc-bridge",
+      "io.montinode tunnel-443"
+    ]
   }), null, 2));
 }
