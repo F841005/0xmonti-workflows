@@ -1,76 +1,132 @@
 {
   "jsonrpc": "2.0",
-  "id": "lifetime-enumeration-01",
-  "method": "repo.enumerateLifetimeHistory",
+  "id": 1,
+  "method": "lifetime.enumerate",
   "params": {
-    "headCommit": "e60fda201eeee8573b4026bd568000aa6e6af6ee",
-    "latestTransition": "9e826ed..e60fda2",
-    "sha256Digest": "0xa2155eaa09b965e25bdaba31d3476aba0e5cc9dc4679d06da7bfd0103b30dc04"
-  },
-  "result": {
-    "generatedAt": "2026-10-21T15:29:42.393Z",
+    "generatedAt": "2026-10-21T15:32:33.879Z",
     "repositoryRoot": "/data/data/com.termux/files/home/io.montinode",
     "lifetimeSpan": {
-      "totalCommits": 6,
-      "rootCommit": "91765c45407b6eac4eded506d3e3518314560ff0",
-      "headCommit": "e60fda201eeee8573b4026bd568000aa6e6af6ee",
-      "lifetimeShortRange": "91765c4..e60fda2",
-      "latestTransition": "9e826ed..e60fda2"
+      "totalCommits": 8,
+      "rootCommit": {
+        "index": 1,
+        "fullHash": "91765c45407b6eac4eded506d3e3518314560ff0",
+        "shortHash": "91765c4",
+        "parents": [],
+        "author": "John Charles Monti",
+        "email": "operator@attorneymode.com",
+        "date": "2026-10-21T10:42:46-04:00",
+        "subject": "feat(enclave): sync ~/io.montinode to F841005/MONTI_ANSI_F841005 [PledgeAllegianceTo:F841005 021189MJ2621]"
+      },
+      "headCommit": {
+        "index": 8,
+        "fullHash": "5e7b62f17a0e3d09751cc38d4cb23e9e6bb77d62",
+        "shortHash": "5e7b62f",
+        "parents": [
+          "6927285ee5b4ff4c2581a70e53cdb4c208ad4824"
+        ],
+        "author": "montinode",
+        "email": "monti@0xmonti.net",
+        "date": "2026-10-21T11:31:32-04:00",
+        "subject": "chore(scripts): track deployment helper scripts and history manifest"
+      },
+      "lifetimeRange": "91765c4..5e7b62f"
     },
-    "registeredWallets": {
-      "montiBraveWallet": "0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4",
-      "evmTreasury": "0xb04110847A563E59F3D52d1aFB3304068173830b",
-      "baseL2Signer": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A",
-      "solanaStateAnchor": "JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy"
-    },
-    "remotes": [
+    "commits": [
       {
-        "name": "org-f841005",
-        "url": "https://github.com/F841005/montinode.git",
-        "type": "fetch"
+        "index": 8,
+        "fullHash": "5e7b62f17a0e3d09751cc38d4cb23e9e6bb77d62",
+        "shortHash": "5e7b62f",
+        "parents": [
+          "6927285ee5b4ff4c2581a70e53cdb4c208ad4824"
+        ],
+        "author": "montinode",
+        "email": "monti@0xmonti.net",
+        "date": "2026-10-21T11:31:32-04:00",
+        "subject": "chore(scripts): track deployment helper scripts and history manifest"
       },
       {
-        "name": "org-f841005",
-        "url": "https://github.com/F841005/montinode.git",
-        "type": "push"
+        "index": 7,
+        "fullHash": "6927285ee5b4ff4c2581a70e53cdb4c208ad4824",
+        "shortHash": "6927285",
+        "parents": [
+          "e60fda201eeee8573b4026bd568000aa6e6af6ee"
+        ],
+        "author": "montinode",
+        "email": "monti@0xmonti.net",
+        "date": "2026-10-21T11:30:02-04:00",
+        "subject": "chore(manifest): generate lifetime JSON-RPC and JSONMONTI enumeration files"
       },
       {
-        "name": "origin",
-        "url": "https://github.com/F841005/MONTI_ANSI_F841005.git",
-        "type": "fetch"
+        "index": 6,
+        "fullHash": "e60fda201eeee8573b4026bd568000aa6e6af6ee",
+        "shortHash": "e60fda2",
+        "parents": [
+          "9e826ed41e27489802fa3a51acf82f157a1a626d"
+        ],
+        "author": "montinode",
+        "email": "monti@0xmonti.net",
+        "date": "2026-10-21T11:26:03-04:00",
+        "subject": "chore(deps): run npm audit fix and remove vulnerable lockfile entries"
       },
       {
-        "name": "origin",
-        "url": "https://github.com/F841005/MONTI_ANSI_F841005.git",
-        "type": "push"
+        "index": 5,
+        "fullHash": "9e826ed41e27489802fa3a51acf82f157a1a626d",
+        "shortHash": "9e826ed",
+        "parents": [
+          "d0c2433888d9102ea6f9e1e42a4a3469f9df9a8f"
+        ],
+        "author": "montinode",
+        "email": "monti@0xmonti.net",
+        "date": "2026-10-21T11:21:50-04:00",
+        "subject": "feat(wallet): add MONTI Brave Wallet 0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4 to PROC_07"
       },
       {
-        "name": "origin",
-        "url": "https://github.com/F841005/monticore-1.git",
-        "type": "push"
+        "index": 4,
+        "fullHash": "d0c2433888d9102ea6f9e1e42a4a3469f9df9a8f",
+        "shortHash": "d0c2433",
+        "parents": [
+          "2379be58cefc741c8b4045555c4b0cc0cc935f76"
+        ],
+        "author": "montinode",
+        "email": "monti@0xmonti.net",
+        "date": "2026-10-21T11:18:46-04:00",
+        "subject": "feat(wallet): bind MONTI Brave Wallet 0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4 across OID assets & PROC_07 [PledgeAllegianceTo:F841005 021189MJ2621]"
       },
       {
-        "name": "origin",
-        "url": "https://github.com/F841005/monti.bio.git",
-        "type": "push"
+        "index": 3,
+        "fullHash": "2379be58cefc741c8b4045555c4b0cc0cc935f76",
+        "shortHash": "2379be5",
+        "parents": [
+          "cd5db043fb0960370bda2e024e232c291617cbb0"
+        ],
+        "author": "montinode",
+        "email": "monti@0xmonti.net",
+        "date": "2026-10-21T11:15:25-04:00",
+        "subject": "feat(proc07): inscribe PROC_07_SUPERDECODE_CLAIM & LOCAL_FS_SEAL catalog [PledgeAllegianceTo:F841005 021189MJ2621]"
       },
       {
-        "name": "origin",
-        "url": "https://github.com/F841005/0xmonti-workflows.git",
-        "type": "push"
+        "index": 2,
+        "fullHash": "cd5db043fb0960370bda2e024e232c291617cbb0",
+        "shortHash": "cd5db04",
+        "parents": [
+          "91765c45407b6eac4eded506d3e3518314560ff0"
+        ],
+        "author": "montinode",
+        "email": "monti@0xmonti.net",
+        "date": "2026-10-21T11:09:11-04:00",
+        "subject": "feat(oid-assets): bind OID MONTI_ANSI_F841005 assets & dependencies across F841005 fleet [PledgeAllegianceTo:F841005 021189MJ2621]"
       },
       {
-        "name": "origin",
-        "url": "https://github.com/F841005/AppManager.montiai.com.git",
-        "type": "push"
-      },
-      {
-        "name": "origin",
-        "url": "https://github.com/F841005/0xmonti-brave-core.git",
-        "type": "push"
+        "index": 1,
+        "fullHash": "91765c45407b6eac4eded506d3e3518314560ff0",
+        "shortHash": "91765c4",
+        "parents": [],
+        "author": "John Charles Monti",
+        "email": "operator@attorneymode.com",
+        "date": "2026-10-21T10:42:46-04:00",
+        "subject": "feat(enclave): sync ~/io.montinode to F841005/MONTI_ANSI_F841005 [PledgeAllegianceTo:F841005 021189MJ2621]"
       }
     ],
-    "trackedFilesCount": 225,
     "trackedFiles": [
       ".gitignore",
       ".npmignore",
@@ -89,6 +145,7 @@
       "ToolsToCompile/Windows/Cygwin.exe",
       "__pycache__/fetch_cia_labs.cpython-314.pyc",
       "accounts_complete.json",
+      "add_monti_brave_wallet.sh",
       "ai_controls_config.json",
       "ai_controls_mcp_push.mjs",
       "all_in_one_rest.mjs",
@@ -100,6 +157,7 @@
       "attorneymode_workforce.mjs",
       "auditSovereignEnvironment",
       "aws_definition_patch.mjs",
+      "bind_monti_brave_wallet.sh",
       "bios_state/gmac_attestation.json",
       "blockchain/etherscan_api_telemetry.json",
       "blockchain/etherscan_client_dispatcher.mjs",
@@ -112,6 +170,7 @@
       "brave-browser/browser/ui/tabs/custom_tab_manager.cc",
       "broadcast_domains.mjs",
       "build.gradle.kts",
+      "build_and_push_f841005.sh",
       "cia_labs_f841005l7.mjs",
       "cloudflare_jwks_validator.mjs",
       "cluster.log",
@@ -120,7 +179,10 @@
       "cluster_update.log",
       "commit_anchor.json",
       "complete_direct_accounts.mjs",
+      "config/deployment_history_manifest.json",
       "config/hardware_attestation_nevada16.json",
+      "config/lifetime_enumeration.jsonmonti",
+      "config/lifetime_history.jsonrpc.json",
       "config/monica_identity_model.json",
       "config/monti_brave_wallet.json",
       "config/oid_monti_ansi_f841005_assets.json",
@@ -136,6 +198,7 @@
       "daemon_8460.log",
       "deploy-and-sync.sh",
       "deploy_mcp_config.mjs",
+      "deploy_proc07_superdecode.sh",
       "dev_cluster.log",
       "dev_cluster.mjs",
       "dex_dao.log",
@@ -280,6 +343,7 @@
       "src/security/oid_asset_verifier.mjs",
       "start_sovereign_bastion.sh",
       "stripe_engine.log",
+      "sync_all_oid_f841005_repos.sh",
       "sync_linked_accounts.mjs",
       "sync_notebook_sources.mjs",
       "telecom/monti_esim_profile.json",
@@ -298,83 +362,6 @@
       "worker.mjs",
       "wrangler.toml"
     ],
-    "commitHistory": [
-      {
-        "index": 6,
-        "fullHash": "e60fda201eeee8573b4026bd568000aa6e6af6ee",
-        "shortHash": "e60fda2",
-        "transitionRange": "9e826ed..e60fda2",
-        "parents": [
-          "9e826ed41e27489802fa3a51acf82f157a1a626d"
-        ],
-        "author": "montinode",
-        "email": "monti@0xmonti.net",
-        "date": "2026-10-21T11:26:03-04:00",
-        "subject": "chore(deps): run npm audit fix and remove vulnerable lockfile entries"
-      },
-      {
-        "index": 5,
-        "fullHash": "9e826ed41e27489802fa3a51acf82f157a1a626d",
-        "shortHash": "9e826ed",
-        "transitionRange": "d0c2433..9e826ed",
-        "parents": [
-          "d0c2433888d9102ea6f9e1e42a4a3469f9df9a8f"
-        ],
-        "author": "montinode",
-        "email": "monti@0xmonti.net",
-        "date": "2026-10-21T11:21:50-04:00",
-        "subject": "feat(wallet): add MONTI Brave Wallet 0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4 to PROC_07"
-      },
-      {
-        "index": 4,
-        "fullHash": "d0c2433888d9102ea6f9e1e42a4a3469f9df9a8f",
-        "shortHash": "d0c2433",
-        "transitionRange": "2379be5..d0c2433",
-        "parents": [
-          "2379be58cefc741c8b4045555c4b0cc0cc935f76"
-        ],
-        "author": "montinode",
-        "email": "monti@0xmonti.net",
-        "date": "2026-10-21T11:18:46-04:00",
-        "subject": "feat(wallet): bind MONTI Brave Wallet 0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4 across OID assets & PROC_07 [PledgeAllegianceTo:F841005 021189MJ2621]"
-      },
-      {
-        "index": 3,
-        "fullHash": "2379be58cefc741c8b4045555c4b0cc0cc935f76",
-        "shortHash": "2379be5",
-        "transitionRange": "cd5db04..2379be5",
-        "parents": [
-          "cd5db043fb0960370bda2e024e232c291617cbb0"
-        ],
-        "author": "montinode",
-        "email": "monti@0xmonti.net",
-        "date": "2026-10-21T11:15:25-04:00",
-        "subject": "feat(proc07): inscribe PROC_07_SUPERDECODE_CLAIM & LOCAL_FS_SEAL catalog [PledgeAllegianceTo:F841005 021189MJ2621]"
-      },
-      {
-        "index": 2,
-        "fullHash": "cd5db043fb0960370bda2e024e232c291617cbb0",
-        "shortHash": "cd5db04",
-        "transitionRange": "91765c4..cd5db04",
-        "parents": [
-          "91765c45407b6eac4eded506d3e3518314560ff0"
-        ],
-        "author": "montinode",
-        "email": "monti@0xmonti.net",
-        "date": "2026-10-21T11:09:11-04:00",
-        "subject": "feat(oid-assets): bind OID MONTI_ANSI_F841005 assets & dependencies across F841005 fleet [PledgeAllegianceTo:F841005 021189MJ2621]"
-      },
-      {
-        "index": 1,
-        "fullHash": "91765c45407b6eac4eded506d3e3518314560ff0",
-        "shortHash": "91765c4",
-        "transitionRange": "91765c4",
-        "parents": [],
-        "author": "John Charles Monti",
-        "email": "operator@attorneymode.com",
-        "date": "2026-10-21T10:42:46-04:00",
-        "subject": "feat(enclave): sync ~/io.montinode to F841005/MONTI_ANSI_F841005 [PledgeAllegianceTo:F841005 021189MJ2621]"
-      }
-    ]
+    "sha256Digest": "0x8c3e10e5e968a4e67c27475d16dd4e4453d013377d947e7a2d13fd1d62b80e58"
   }
 }
