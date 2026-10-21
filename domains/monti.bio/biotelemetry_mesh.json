@@ -1,0 +1,9 @@
+{
+  "domain": "monti.bio",
+  "subdomains": ["pem.monti.bio", "mcp.monti.bio"],
+  "cellularCarrier": "PEM.MONTI.BIO",
+  "blockchainWorkers": "mcp.monti.bio",
+  "rfDefense": "47_CFR_Part15_ACTIVE_BLUETOOTH_COUNTER_PROTOCOL",
+  "hipaaCompliance": "45_CFR_164_312_BIOTELEMETRY_SEALED",
+  "hardwareAnchor": "MONTI_ANSI_F841005"
+}

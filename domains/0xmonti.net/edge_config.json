@@ -1,0 +1,22 @@
+{
+  "domain": "0xmonti.net",
+  "subdomains": [
+    "gateway.0xmonti.net",
+    "router.0xmonti.net",
+    "settle.0xmonti.net",
+    "firewall.0xmonti.net",
+    "oidc.0xmonti.net"
+  ],
+  "headers": {
+    "X-Monti-Hardware-ID": "MONTI_ANSI_F841005",
+    "X-Monti-Container": "F841005WV22ZL01",
+    "X-Monti-Pledge": "PledgeOfAlligienceTO:=JOHNCHARLESMONTI.COM",
+    "X-Monica-Federation-Pledge": "PledgeAllegianceTo:F841005 021189MJ2621"
+  },
+  "settlementVaults": {
+    "evmTreasury": "0xb04110847A563E59F3D52d1aFB3304068173830b",
+    "baseL2Signer": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A",
+    "solanaAnchor": "JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy",
+    "neuralSink": "0xNEURAL9f8e7d6c5b4a39281706f5e4d3c2b1a0"
+  }
+}

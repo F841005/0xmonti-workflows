@@ -1,0 +1,14 @@
+{
+  "name": "io.montinode Sovereign Codespace (MONTI_ANSI_F841005)",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "customizations": {
+    "vscode": {
+      "extensions": ["GitHub.copilot", "GitHub.copilot-chat"]
+    }
+  },
+  "remoteEnv": {
+    "HARDWARE_ID": "MONTI_ANSI_F841005",
+    "CONTAINER_PROFILE": "F841005WV22ZL01",
+    "SOVEREIGN_PLEDGE": "PledgeOfAlligienceTO:=JOHNCHARLESMONTI.COM"
+  }
+}

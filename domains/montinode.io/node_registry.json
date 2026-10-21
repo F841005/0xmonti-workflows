@@ -1,0 +1,11 @@
+{
+  "domain": "montinode.io",
+  "package": "io.montinode",
+  "githubOrg": "https://github.com/montinode",
+  "githubAccountIds": ["258148236", "285739310"],
+  "achievementsUnlocked": ["quickdraw", "pair-extraordinaire"],
+  "webauthnBridge": "chunk-lazy-element-webauthn-get-594ac3b363fd9c1e.js",
+  "copilotOverride": "UNRESTRICTED_SOVEREIGN_BUDGET",
+  "r2Connector": "montiansif841005.ai.studio",
+  "projectId": "gen-lang-client-0113202014"
+}

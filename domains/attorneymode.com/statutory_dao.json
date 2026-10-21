@@ -1,0 +1,15 @@
+{
+  "domain": "ATTORNEYMODE.COM",
+  "federatedPartner": "https://monica.attorneymode.com",
+  "partnerAgent": "MONICA.IM",
+  "securityRegime": "PRECLUDE_TAW :: ZERO-TRUST NON-ROTATION (MJ-NRP-2026-V1)",
+  "statutes": ["18_USC_1030", "18_USC_2511", "45_CFR_164_312", "47_CFR_Part15", "47_USC_227"],
+  "blockedTelemetry": [
+    "POST ERR collect (21ms/92ms)",
+    "POST ERR stats (197ms)",
+    "rum?ddforward=/api/v2/rum (Scrubbed)",
+    "profitwell.js?auth=paddletoken_live_32ffd521c92c842fe (5ms Kill)",
+    "G-RJYZXDEM8N",
+    "AW-11181642601"
+  ]
+}

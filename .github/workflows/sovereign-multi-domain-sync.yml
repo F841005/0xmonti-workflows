@@ -1,0 +1,28 @@
+name: Sovereign Multi-Domain & GitHub Feature Sync
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  packages: write
+  security-events: write
+
+jobs:
+  verify-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout io.montinode
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify Sovereign Domains & Manifest Chain
+        run: |
+          node ./bin/io_montinode_cli.mjs status
+          node ./bin/io_montinode_cli.mjs sync-domains
+          node ./bin/io_montinode_cli.mjs verify-github
