@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 import { createHash } from "node:crypto";
 import { stripVTControlCharacters } from "node:util";
 

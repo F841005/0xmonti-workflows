@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 # File: ~/io.montinode/bind_monti_brave_wallet.sh
 # Purpose: Bind MONTI Brave Wallet (0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4) across OID Assets, Engine, PROC_07, and Fleet
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 # File: ~/io.montinode/build_and_push_f841005.sh
 # Target Repository: https://github.com/F841005/MONTI_ANSI_F841005.git
 # Workspace: ~/io.montinode | Owner: montinode | Org: F841005

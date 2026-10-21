@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 import crypto from 'crypto';
 
 export class MontiAISovereignEngine {

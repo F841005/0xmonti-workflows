@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 /**
  * MODULE        : fs_error_patch.mjs
  * HARDWARE ID   : MONTI_ANSI_F841005

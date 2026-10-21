@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 /**
  * ============================================================================
  * MODULE        : sync_linked_accounts.mjs

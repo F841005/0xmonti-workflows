@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 /**
  * ============================================================================
  * MODULE      : AgentLEE_DNS_Embedder.js

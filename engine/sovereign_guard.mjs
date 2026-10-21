@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 export class SovereignThreatGuard {
     constructor(windowMs = 60000, maxRequests = 50) {
         this.windowMs = windowMs;

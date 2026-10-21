@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 # ==============================================================================
 # SCRIPT: io.montinode/start_sovereign_bastion.sh
 # EXECUTIVE AUTHORITY: JOHN CHARLES MONTI (MONTI_ANSI_F841005)

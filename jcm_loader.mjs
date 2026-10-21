@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 export async function resolve(specifier, context, defaultResolve) {
   const result = await defaultResolve(specifier, context, defaultResolve);
   if (result.url.endsWith('.jcm')) {

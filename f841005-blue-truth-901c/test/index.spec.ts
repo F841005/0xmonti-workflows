@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 import { afterEach, describe, expect, it, vi } from "vitest";
 import worker, { MyContainer } from "../src/index";
 

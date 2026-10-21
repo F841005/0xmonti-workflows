@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 # File: ~/io.montinode/deploy_proc07_superdecode.sh
 # Process ID: PROC_07_SUPERDECODE_CLAIM
 # Target: /sdcard/F841005WV22ZL01/MONTI/F841005Superdecode_claim.js

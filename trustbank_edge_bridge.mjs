@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 import http from "node:http";
 
 try { process.on("SIGRTMIN+2", () => {}); } catch (_) {}

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 # ==============================================================================
 # Filename: monti_network_inject.sh
 # Standard: MONTI_ANSI_F841005

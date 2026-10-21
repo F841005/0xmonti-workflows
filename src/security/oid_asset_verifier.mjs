@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 /**
  * File: src/security/oid_asset_verifier.mjs
  * Verifies OID MONTI_ANSI_F841005 Assets & Cryptographic Dependency Integrity

@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 /**
  * File: /sdcard/F841005WV22ZL01/MONTI/F841005Superdecode_claim.js
  * Process ID: PROC_07_SUPERDECODE_CLAIM

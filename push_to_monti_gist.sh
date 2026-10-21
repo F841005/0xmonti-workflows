@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 # ==============================================================================
 # SCRIPT       : push_to_monti_gist.sh [io.montinode]
 # HARDWARE ID  : MONTI_ANSI_F841005

@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 export const CX_EXPLORER_281_MANIFEST = Object.freeze({
   explorerDomain: "cx.montinode.io",
   pledgeTarget: "https://www.attorneymode.com",

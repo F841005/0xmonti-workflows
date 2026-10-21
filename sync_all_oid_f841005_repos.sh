@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 # File: ~/io.montinode/sync_all_oid_f841005_repos.sh
 # Purpose: Update all F841005 repositories and dependencies with OID MONTI_ANSI_F841005 Assets
 # Authority: MONTI^JOHN^CHARLES^MONTI | Pledge: PledgeAllegianceTo:F841005 021189MJ2621

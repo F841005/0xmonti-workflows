@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 # ==============================================================================
 # SOVEREIGN EXECUTABLE SIGNATURE: MONTI_ANSI_F841005 [io.montinode]
 # ==============================================================================

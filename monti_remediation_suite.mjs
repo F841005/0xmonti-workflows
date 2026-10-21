@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 /**
  * ============================================================================
  * MODULE        : monti_remediation_suite.mjs

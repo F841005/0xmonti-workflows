@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 import { DurableObject } from "cloudflare:workers";
 import { Hono } from "hono";
 

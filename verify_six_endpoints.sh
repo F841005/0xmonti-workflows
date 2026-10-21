@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 # ==============================================================================
 # SCRIPT       : verify_six_endpoints.sh
 # HARDWARE ID  : MONTI_ANSI_F841005

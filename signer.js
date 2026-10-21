@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 // File: $HOME/engine_cluster/signer.js
 import crypto from "node:crypto";
 

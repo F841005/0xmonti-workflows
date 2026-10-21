@@ -1,3 +1,4 @@
+// MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
 /**
  * MODULE        : immortal_access_grant.mjs
  * HARDWARE ID   : MONTI_ANSI_F841005
