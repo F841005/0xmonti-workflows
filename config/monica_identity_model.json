@@ -10,6 +10,7 @@
     "containerProfile": "F841005WV22ZL01",
     "authorityRoot": "MONTI^JOHN^CHARLES^MONTI",
     "operator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+    "montiBraveWallet": "0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4",
     "policyDirective": "PRECLUDE_TAW",
     "fiduciaryRule": "IN THE BEST INTEREST OF JOHN CHARLES MONTI",
     "keccakProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
@@ -23,9 +24,11 @@
     "ledger:inscribe",
     "federation:pledge",
     "crosschain:relay",
+    "wallet:brave:0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4",
     "unrestricted:all"
   ],
   "settlementRouting": {
+    "montiBraveWallet": "0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4",
     "evmTreasuryCore": "0xb04110847A563E59F3D52d1aFB3304068173830b",
     "baseL2Signer": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A",
     "solanaPledgedCore": "JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy",

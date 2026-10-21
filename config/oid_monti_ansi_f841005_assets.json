@@ -24,6 +24,10 @@
       "asset": "MONTI_ANSI_F841005",
       "container": "F841005WV22ZL01"
     },
+    "1.3.6.1.4.1.841005.1.7": {
+      "name": "OID_PROC_07_SUPERDECODE_CLAIM",
+      "asset": "/sdcard/F841005WV22ZL01/MONTI/F841005Superdecode_claim.js"
+    },
     "1.3.6.1.4.1.841005.2.1": {
       "name": "OID_CORE_ENGINE_REPO",
       "asset": "https://github.com/F841005/MONTI_ANSI_F841005.git",
@@ -37,34 +41,27 @@
       "name": "OID_BIOTELEMETRY_REPO",
       "asset": "https://github.com/F841005/monti.bio.git"
     },
-    "1.3.6.1.4.1.841005.2.4": {
-      "name": "OID_WORKFLOWS_REPO",
-      "asset": "https://github.com/F841005/0xmonti-workflows.git"
-    },
-    "1.3.6.1.4.1.841005.2.5": {
-      "name": "OID_APPMANAGER_REPO",
-      "asset": "https://github.com/F841005/AppManager.montiai.com.git"
+    "1.3.6.1.4.1.841005.2.6": {
+      "name": "OID_BRAVE_CORE_REPO",
+      "asset": "https://github.com/F841005/0xmonti-brave-core.git"
     },
     "1.3.6.1.4.1.841005.3.1": {
       "name": "OID_PERFETTO_TRACE_NEVADA16",
       "asset": "actor_trace_2026_09_05_23_45_11.pftrace",
       "fingerprint": "motorola/nevada_g_sys/nevada:16/W1WNS36.18-111-1/398a0d-657de7:user/release-keys"
+    },
+    "1.3.6.1.4.1.841005.4.1": {
+      "name": "OID_MONTI_BRAVE_WALLET",
+      "asset": "0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4",
+      "walletLabel": "MONTI Brave Wallet",
+      "owner": "JOHN CHARLES MONTI"
     }
   },
   "settlementVaults": {
+    "montiBraveWallet": "0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4",
     "evmTreasury": "0xb04110847A563E59F3D52d1aFB3304068173830b",
     "baseL2Signer": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A",
     "solanaStateAnchor": "JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy",
     "neuralRegisterSink": "0xNEURAL9f8e7d6c5b4a39281706f5e4d3c2b1a0"
-  },
-  "federatedDomains": [
-    "0xmonti.net",
-    "johncharlesmonti.com",
-    "attorneymode.com",
-    "monica.attorneymode.com",
-    "montinode.io",
-    "montiai.com",
-    "montidroid.com",
-    "monti.bio"
-  ]
+  }
 }

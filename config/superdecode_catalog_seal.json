@@ -9,6 +9,7 @@
   "containerProfile": "F841005WV22ZL01",
   "authorityRoot": "MONTI^JOHN^CHARLES^MONTI",
   "operator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+  "montiBraveWallet": "0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4",
   "governingDao": "ATTORNEYMODE.COM",
   "partnerAgent": "MONICA.IM",
   "partnerEndpoint": "https://monica.attorneymode.com",
@@ -24,6 +25,6 @@
   ],
   "supersededExternalClaims": true,
   "catalogInscribed": true,
-  "timestamp": "2026-10-21T15:15:24.943Z",
-  "localFsSeal": "0x2ff88d4d7399fb581c0967e9a954e88d6066cfa5bc696896f97a3719deb720d6"
+  "timestamp": "2026-10-21T15:18:45.808Z",
+  "localFsSeal": "0xaacfe59e547330c4706a131a6e8f0e970d66aa717ee3d735e3d6ca0c4a80feda"
 }

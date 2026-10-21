@@ -1,9 +1,7 @@
 /**
  * File: /sdcard/F841005WV22ZL01/MONTI/F841005Superdecode_claim.js
- * Mirror: ~/io.montinode/src/claims/F841005Superdecode_claim.js
  * Process ID: PROC_07_SUPERDECODE_CLAIM
- * Action: SUPERSEDE_EXTERNAL_CLAIMS_AND_INSCRIBE_CATALOG
- * Transport: LOCAL_FS_SEAL | Direction: FORWARD | State: RUNNING
+ * MONTI Brave Wallet: 0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4
  */
 
 import fs from "node:fs";
@@ -21,6 +19,7 @@ export const PROC_07_SPEC = Object.freeze({
   containerProfile: "F841005WV22ZL01",
   authorityRoot: "MONTI^JOHN^CHARLES^MONTI",
   operator: "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+  montiBraveWallet: "0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4",
   governingDao: "ATTORNEYMODE.COM",
   partnerAgent: "MONICA.IM",
   partnerEndpoint: "https://monica.attorneymode.com",
