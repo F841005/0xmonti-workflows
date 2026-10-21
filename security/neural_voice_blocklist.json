@@ -1,0 +1,39 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "file": "/sdcard/F841005WV22ZL01/ANDROID/monti/neural_voice_blocklist.json",
+  "policyDirective": "PRECLUDE_TAW",
+  "hardwareAnchor": "MONTI_ANSI_F841005",
+  "container": "F841005WV22ZL01",
+  "voicePreclusionMode": "ABSOLUTE_NEURAL_DISCONNECT",
+  "precludedPackages": [
+    "com.google.ambient.streaming",
+    "com.android.hotwordenrollment.okgoogle",
+    "com.android.hotwordenrollment.xgoogle",
+    "com.google.android.googlequicksearchbox:interactor",
+    "com.motorola.audiomonitor",
+    "com.android.DeviceAsWebcam"
+  ],
+  "precludedAudioMimeTypes": [
+    "audio/pcm",
+    "audio/wav",
+    "audio/ogg",
+    "audio/mp3",
+    "audio/aac",
+    "audio/webm",
+    "application/x-subvocal-stream"
+  ],
+  "precludedInferenceVectors": [
+    "ASR_STREAMING_INFERENCE",
+    "WHISPER_VOICE_ENCODER",
+    "VOICE_TO_LATENT_CONVERSION",
+    "REALTIME_AUDIO_TO_TEXT_PROMPT",
+    "MICROPHONE_NEURAL_LOOP"
+  ],
+  "enforcedStatutes": [
+    "18_USC_1030",
+    "18_USC_2511",
+    "45_CFR_164_312",
+    "47_CFR_Part15",
+    "47_USC_227"
+  ]
+}

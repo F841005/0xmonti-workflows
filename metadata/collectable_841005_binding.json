@@ -1,0 +1,34 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "spec": "MONTI_ANSI_F841005_COLLECTABLE_NFT_BINDING",
+  "version": "2026.10.17",
+  "hardwareId": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "authority": "MONTI^JOHN^CHARLES^MONTI",
+  "operator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+  "policy": "PRECLUDE_TAW",
+  "collectable": {
+    "network": "Base Mainnet (Chain ID 8453)",
+    "contractAddress": "0x84100539E1a44eDA97379766D3A95FA97d841005",
+    "collectablesId": 841005,
+    "symbol": "MON",
+    "standard": "ERC-721 / ERC-7201",
+    "storageSlot": "0x7c84b5ab9cd01b0c79b3ea257b3e87e59ff3b42de7dcb0c68436df71a98aff00",
+    "baseUri": "https://johncharlesmonti.base.eth",
+    "detectedPersonalSigner": "0xBDB508D63ADd668a5b57c002d45C06e8D8aA8BCF",
+    "baseSigner": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A",
+    "treasuryVault": "0xb04110847A563E59F3D52d1aFB3304068173830b"
+  },
+  "cryptographicAnchors": {
+    "keccakProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+    "calldataSeal": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0"
+  },
+  "statutoryMatrix": [
+    "18_USC_1030",
+    "18_USC_2511",
+    "45_CFR_164_312",
+    "47_CFR_Part15",
+    "47_USC_227"
+  ],
+  "timestamp": "2026-10-17T09:45:00.000Z"
+}

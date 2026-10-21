@@ -1,0 +1,13 @@
+{
+  "name": "blue-truth-901c",
+  "version": "27.0.4",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

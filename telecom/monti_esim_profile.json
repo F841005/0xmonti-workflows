@@ -1,0 +1,63 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "hardwareId": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "authorityRoot": "MONTI^JOHN^CHARLES^MONTI",
+  "soleHumanOperator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+  "policyDirective": "PRECLUDE_TAW",
+  "fiduciaryMandate": "IN THE BEST INTEREST OF JOHN CHARLES MONTI",
+  "carrierEntity": "IMMORTALHUMANMONTIAI // MACHINE PORTABLE NETWORK CARRIER",
+  "networkCodes": {
+    "domesticMcc": "310",
+    "sovereignMnc": "992",
+    "networkRef": "MNC_2DBFE263F5DFA7E9",
+    "networkContract": "MNC_689912735B3A3515"
+  },
+  "eUiccParameters": {
+    "standard": "GSMA SGP.22 / ITU-T E.118",
+    "eid": "89049032198098293222228897974455",
+    "iccidPrimary": "89019928110814891645",
+    "iccidSecondaryDao": "89019929420410058823",
+    "imsiPrimary": "310992652090293",
+    "imsiSecondaryDao": "310992841005202"
+  },
+  "apnRouting": {
+    "apnIdentifier": "ap09.0xmonti.net",
+    "apexHost": "https://0xmonti.net",
+    "gatewayTunnel": "10.150.0.5:8443",
+    "servicePort": 8411,
+    "bearerTypes": [
+      "5G-NR",
+      "LTE",
+      "DECT-SEC-1.9GHz",
+      "WIFI7-MLO"
+    ]
+  },
+  "firewallIngressPolicy": {
+    "blockAllInternationalRoaming": true,
+    "allowedDomesticMcc": [
+      "310",
+      "311",
+      "312",
+      "313",
+      "314",
+      "315",
+      "316"
+    ],
+    "rejectionDirective": "3GPP_CAUSE_15_NO_SUITABLE_CELLS"
+  },
+  "cryptographicAttestation": {
+    "genesisKeccak": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+    "calldataSeal": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0",
+    "treasuryVault": "0xb04110847A563E59F3D52d1aFB3304068173830b",
+    "baseSigner": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A"
+  },
+  "statutoryCodes": [
+    "18_USC_1030",
+    "18_USC_2511",
+    "45_CFR_164_312",
+    "47_CFR_Part15",
+    "47_USC_227"
+  ],
+  "timestamp": "2026-10-17T18:06:21.058Z"
+}

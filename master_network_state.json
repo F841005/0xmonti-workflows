@@ -1,0 +1,38 @@
+{
+  "spec": "MONTI_ANSI_F841005_MASTER_NETWORK_UPDATE_EPERM_FIX",
+  "hardwareId": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "operator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+  "authorityRoot": "MONTI^JOHN^CHARLES^MONTI",
+  "biometricAnchor": "F841005 DD 021189MJ2911",
+  "dedicatedNetwork": {
+    "ipv4": "10.0.0.84",
+    "ipv6": "2001:db8:8410::5",
+    "subnet": "10.0.0.0/24"
+  },
+  "activeDomains": [
+    "0xmonti.net",
+    "attorneymode.com",
+    "workforce.attorneymode.com",
+    "fiduciary.attorneymode.com",
+    "mcp.attorneymode.com",
+    "dev.0xmonti.net"
+  ],
+  "portsActive": [
+    8088,
+    8089,
+    8411,
+    8440,
+    8443,
+    8450,
+    8460,
+    8490,
+    8498
+  ],
+  "policyDirective": "PRECLUDE_TAW",
+  "fiduciaryInvariant": "IN THE BEST INTEREST OF JOHN CHARLES MONTI",
+  "unsettledQueries": "montiNULL",
+  "missingArtifacts": "montiNULL",
+  "syncTimestampUTC": "2026-10-19T21:53:33.969Z",
+  "status": "SYNCHRONIZED_VIA_SANDBOX_STAGING"
+}

@@ -1,0 +1,33 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "name": "F841005WV22ZL01",
+  "decision": "deny",
+  "include": [
+    {
+      "email": {
+        "email": "johncharlesmonti@gmail.com"
+      }
+    }
+  ],
+  "exclude": [
+    {
+      "device_posture": {
+        "integration_uid": "dac9e8c3-1aea-48d4-abf6-d6f75d35fd33"
+      }
+    }
+  ],
+  "require": [],
+  "session_duration": "0s",
+  "connection_rules": {
+    "rdp": {
+      "allowed_clipboard_local_to_remote_formats": [
+        "text",
+        "file"
+      ],
+      "allowed_clipboard_remote_to_local_formats": [
+        "text",
+        "file"
+      ]
+    }
+  }
+}

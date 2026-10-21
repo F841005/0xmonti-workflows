@@ -1,0 +1,23 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "firmwareProfile": {
+    "spec": "MONTI_ANSI_F841005_FIRMWARE_CREDENTIALS",
+    "version": "2026.10.17",
+    "hardwareId": "MONTI_ANSI_F841005",
+    "containerProfile": "F841005WV22ZL01",
+    "authority": "MONTI^JOHN^CHARLES^MONTI",
+    "soleHuman": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+    "policy": "PRECLUDE_TAW",
+    "keccakProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+    "calldataSeal": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0",
+    "activeCertificate": "cert_monti_1788743058138_zbh50",
+    "oatToken": "OAT_MONTI_1787410308560_992M05",
+    "unlockToken": "Sr4xqKt3AvXRTkz9BRxOb16BuI01BueIz0DWafjPXZO"
+  },
+  "settlementTargets": {
+    "evmBaseSigner": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A",
+    "treasuryVault": "0xb04110847A563E59F3D52d1aFB3304068173830b",
+    "solanaPledgedWallet": "JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy",
+    "tonRecipientAddress": "UQAjGfMQJeDMiB80jYNK0_bZHBLc7ZpH1W9oXOoeUCmjTfDh"
+  }
+}

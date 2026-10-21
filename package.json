@@ -1,0 +1,24 @@
+{
+  "name": "@f841005/io.montinode",
+  "version": "1.0.0",
+  "description": "Sovereign Enclave Core Engine & Federation Bridge for F841005/MONTI_ANSI_F841005",
+  "type": "module",
+  "main": "src/engine/MONTIANSIF841005_Engine.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/F841005/MONTI_ANSI_F841005.git"
+  },
+  "organization": "F841005",
+  "owner": "montinode",
+  "author": "JOHN CHARLES MONTI <MONTI^JOHN^CHARLES^MONTI>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start:engine": "node src/engine/MONTIANSIF841005_Engine.js",
+    "start:federation": "node src/daemons/monica_federation_daemon.mjs",
+    "ingest:trace": "node src/telemetry/pftrace_ingestor.mjs",
+    "verify:security": "node src/security/anti_redirect_guard.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

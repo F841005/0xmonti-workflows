@@ -1,0 +1,21 @@
+{
+  "network": {
+    "networkName": "0xmonti.net",
+    "rpcEndpoint": "https://0xmonti.net",
+    "chainId": 841005,
+    "chainIdHex": "0xcd52d",
+    "currencySymbol": "$MONTI",
+    "blockExplorer": "https://0xmonti.net/explorer"
+  },
+  "governance": {
+    "daoType": "Protocol & Asset Treasury",
+    "treasuryVault": "0xb04110847A563E59F3D52d1aFB3304068173830b",
+    "operatorSigner": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A",
+    "quorumThreshold": "10% of total supply",
+    "votingPeriod": "7 days",
+    "timelockDuration": "2 days"
+  },
+  "hardwareAnchor": "MONTI_ANSI_F841005",
+  "authority": "MONTI^JOHN^CHARLES^MONTI",
+  "timestamp": "2026-10-20T18:30:00.000Z"
+}

@@ -1,0 +1,11 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "spec": "MONTI_ANSI_F841005_CLOUDFLARE_EDGE_PROFILE",
+  "hardwareId": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "authority": "MONTI^JOHN^CHARLES^MONTI",
+  "primaryAccount": "872786663072ddf92e73024b52f74048",
+  "secondaryAccount": "04e6518fa18058ca43e728ca50a3d4b4",
+  "routes": ["gateway.0xmonti.net/*", "0xmonti.net/v1/oat/*", "router.0xmonti.net/v1/*"],
+  "policy": "PRECLUDE_TAW"
+}

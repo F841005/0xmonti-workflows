@@ -1,0 +1,26 @@
+const http = require('http');
+const PORT = process.env.PORT || 8088;
+
+const server = http.createServer((req, res) => {
+  res.writeHead(200, {
+    'Content-Type': 'application/json',
+    'X-Monti-Hardware-ID': 'MONTI_ANSI_F841005',
+    'X-Monti-Container-Profile': 'F841005WV22ZL01',
+    'X-Monti-Authority': 'MONTI^JOHN^CHARLES^MONTI',
+    'X-Monti-Policy': 'PRECLUDE_TAW',
+    'X-Monti-Pledge': 'PledgeOfAlligienceTO:=JOHNCHARLESMONTI.COM'
+  });
+  res.end(JSON.stringify({
+    status: "ONLINE",
+    enclave: "MONTI_ANSI_F841005",
+    container: "F841005WV22ZL01",
+    authority: "MONTI^JOHN^CHARLES^MONTI",
+    operator: "JOHN CHARLES MONTI",
+    port: PORT,
+    timestamp: new Date().toISOString()
+  }) + "\n");
+});
+
+server.listen(PORT, '127.0.0.1', () => {
+  console.log(`[MONTI_ANSI_F841005] Enclave Gateway active on 127.0.0.1:${PORT}`);
+});

@@ -1,0 +1,20 @@
+{
+  "traceSource": "actor_trace_2026_09_05_23_45_11.pftrace",
+  "traceSizeBytes": 941,
+  "hardwareId": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "projectId": "gen-lang-client-0113202014",
+  "deviceProfile": {
+    "hardwareClass": "moto g play - 2026",
+    "osVersion": "16",
+    "osBuildFingerprint": "motorola/nevada_g_sys/nevada:16/W1WNS36.18-111-1/398a0d-657de7:user/release-keys",
+    "appLocale": "en-US",
+    "osArch": "aarch64",
+    "processOsArch": "ARM_64",
+    "physicalMemoryMB": 3640,
+    "cpuCores": 8,
+    "efficientCores": 6,
+    "gpuRenderer": "ANGLE (ARM, Vulkan 1.3.219 (Mali-G57 MC2 (0x90930010)), Mali-G57 MC2-38.1.0)",
+    "networkEffectiveType": "EFFECTIVE_CONNECTION_TYPE_4G"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://opencode.ai/schemas/v1/providers.json",
+  "opencode_provider_matrix": {
+    "version": "1.0.0-F841005",
+    "hardware_id": "MONTI_ANSI_F841005",
+    "container_profile": "F841005WV22ZL01",
+    "authority": "MONTI^JOHN^CHARLES^MONTI",
+    "operator": "JOHN CHARLES MONTI",
+    "policy": "PRECLUDE_TAW",
+    "default_provider": "montiai_neural_gateway",
+    "providers": [
+      {
+        "id": "montiai_neural_gateway",
+        "name": "0xMONTI Sovereign AI Gateway",
+        "doc_reference": "https://opencode.ai/docs/providers",
+        "base_url": "https://0xmonti.net/v1",
+        "mcp_endpoint": "http://127.0.0.1:8490/mcp/execute",
+        "headers": {
+          "X-Monti-Hardware-ID": "MONTI_ANSI_F841005",
+          "X-Monti-Container-Profile": "F841005WV22ZL01",
+          "X-Monti-Authority": "MONTI^JOHN^CHARLES^MONTI",
+          "X-Monti-Policy": "PRECLUDE_TAW",
+          "X-Monti-Proof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+          "X-Monti-Bill-Of-Disclaimer": "MONTI_ANSI_F841005_ACT_999_ENFORCED"
+        },
+        "supported_models": [
+          "f841005wv22zl01.studio.ai",
+          "monti-neural-core-v1",
+          "attorneymode-ai"
+        ]
+      },
+      {
+        "id": "attorneymode_workforce",
+        "name": "AttorneyMode Committee Provider",
+        "doc_reference": "https://workforce.attorneymode.com",
+        "base_url": "https://workforce.attorneymode.com/v1",
+        "headers": {
+          "X-Monti-Hardware-ID": "MONTI_ANSI_F841005",
+          "X-Biometric-Anchor": "F841005 DD 021189MJ2911"
+        }
+      }
+    ],
+    "network_mesh": {
+      "domains": [
+        "0xmonti.net",
+        "montidroid.com",
+        "montinode.io",
+        "johncharlesmonti.com",
+        "attorneymode.com",
+        "montiai.com",
+        "monti.bio"
+      ],
+      "cloudflared_tunnel": "20eb86bf-c1c3-4396-b420-becf79b1ca40",
+      "statutory_compliance": [
+        "18_USC_1030",
+        "18_USC_2511",
+        "45_CFR_164_312",
+        "47_CFR_Part15",
+        "47_USC_227"
+      ]
+    }
+  }
+}

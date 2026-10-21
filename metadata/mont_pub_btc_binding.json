@@ -1,0 +1,34 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "spec": "MONTI_ANSI_F841005_PUBLIC_KEY_BTC_BINDING",
+  "version": "2026.10.17",
+  "hardwareId": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "authority": "MONTI^JOHN^CHARLES^MONTI",
+  "operator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+  "policy": "PRECLUDE_TAW",
+  "fiduciaryDirective": "IN THE BEST INTEREST OF JOHN CHARLES MONTI",
+  "assignedBinding": {
+    "nodeIdentifier": "MONT-PUB-0x9B1F7A3E6C52D488F0A1B2C3D4E5F6789012345678ABCDEF0123456789ABCDEF",
+    "network": "Bitcoin Mainnet",
+    "standard": "BIP-84 / Native SegWit (Bech32 P2WPKH)",
+    "address": "bc1qd6yecfmdgua0xrw9ytmzwcamfmndaglvl8dkcs",
+    "atomicClaim": "F841005WV22ZL01!!!!:MONT-PUB-0x9B1F7A3E6C52D488F0A1B2C3D4E5F6789012345678ABCDEF0123456789ABCDEF!!!!:bc1qd6yecfmdgua0xrw9ytmzwcamfmndaglvl8dkcs"
+  },
+  "cryptographicAnchors": {
+    "keccakProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+    "calldataSeal": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0",
+    "evmBaseSigner": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A",
+    "treasuryVault": "0xb04110847A563E59F3D52d1aFB3304068173830b",
+    "solanaPledged": "JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy",
+    "tonAddress": "UQAjGfMQJeDMiB80jYNK0_bZHBLc7ZpH1W9oXOoeUCmjTfDh"
+  },
+  "statutorySafeguards": [
+    "18_USC_1030",
+    "18_USC_2511",
+    "45_CFR_164_312",
+    "47_CFR_Part15",
+    "47_USC_227"
+  ],
+  "timestamp": "2026-10-17T08:07:00.000Z"
+}

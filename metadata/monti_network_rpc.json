@@ -1,0 +1,40 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "$schema": "https://0xmonti.net/schemas/eip3085_network.json",
+  "networkName": "0xmonti.net",
+  "rpcName": "0xmonti.net Sovereign RPC",
+  "rpcUrls": [
+    "https://0xmonti.net",
+    "http://127.0.0.1:8088"
+  ],
+  "chainIdDecimal": 841005,
+  "chainIdHex": "0xcd52d",
+  "symbol": "$MONTI",
+  "currencyName": "MONTI_ANSI_F841005 USD",
+  "decimals": 18,
+  "blockExplorerUrls": [
+    "https://0xmonti.net/explorer",
+    "https://montinode.io"
+  ],
+  "icon": "🏛️",
+  "iconUrl": "data:text/plain;charset=utf-8,🏛️",
+  "hardwareAnchor": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "authority": "MONTI^JOHN^CHARLES^MONTI",
+  "operator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+  "policy": "PRECLUDE_TAW",
+  "cryptographicAnchors": {
+    "keccakProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+    "calldataSeal": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0",
+    "treasuryVault": "0xb04110847A563E59F3D52d1aFB3304068173830b",
+    "baseSigner": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A"
+  },
+  "statutoryMatrix": [
+    "18_USC_1030",
+    "18_USC_2511",
+    "45_CFR_164_312",
+    "47_CFR_Part15",
+    "47_USC_227"
+  ],
+  "timestamp": "2026-10-17T09:50:00.000Z"
+}

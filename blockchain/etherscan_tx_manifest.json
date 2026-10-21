@@ -1,0 +1,27 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "explorerService": "Etherscan.io / BaseScan",
+  "apiEndpoint": "https://api.etherscan.io/api",
+  "network": "Ethereum Mainnet / Base L2",
+  "chainId": 8453,
+  "txParams": {
+    "from": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A",
+    "to": "0x4524161702b60ea73f977c1fb6e21b95890425c6",
+    "data": "0xa9059cbb000000000000000000000000b04110847a563e59f3d52d1afb3304068173830b000000000000000000000000000000000000000000000000000000000000000030784d4f4e54495f5349475f34453646363436355f34413646363836455f34333638363137323643363537335f344436463645373436395f3966386537643663356234613339323831373036663565346433633262316130",
+    "value": "0x0",
+    "gasLimit": "0x186a0",
+    "maxPriorityFeePerGas": "0x3b9aca00",
+    "maxFeePerGas": "0x77359400"
+  },
+  "enclaveInvariants": {
+    "hardwareId": "MONTI_ANSI_F841005",
+    "container": "F841005WV22ZL01",
+    "authority": "MONTI^JOHN^CHARLES^MONTI",
+    "operator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+    "genesisProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+    "policy": "PRECLUDE_TAW"
+  },
+  "calldataHash": "0x9f6c8498f6b0a6d7b12f052f867065b3a87ac7dfe39907588fc7b52b1e9781b5",
+  "etherscanVerifyUrl": "https://etherscan.io/address/0x4524161702b60ea73f977c1fb6e21b95890425c6#writeContract",
+  "timestamp": "2026-10-17T18:14:13.395Z"
+}

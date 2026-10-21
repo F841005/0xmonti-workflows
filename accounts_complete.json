@@ -1,0 +1,24 @@
+{
+  "event": "DIRECT_ACCOUNTS_SETTLEMENT_COMPLETE",
+  "status": "COMPLETE",
+  "settlementState": "VERIFIED_OPTIMAL",
+  "hardwareId": "MONTI_ANSI_F841005",
+  "container": "F841005WV22ZL01",
+  "authority": "MONTI^JOHN^CHARLES^MONTI",
+  "operator": "JOHN CHARLES MONTI",
+  "biometricAnchor": "F841005 DD 021189MJ2911",
+  "committeeDomain": "attorneymode.com",
+  "accounts": {
+    "evmVault": "0xb0411084...830b",
+    "baseL2Vault": "0x9E2F7A1C...2F4A",
+    "solanaPledged": "JD25qVdt...FiMy",
+    "neuralAddress": "0xNEURAL9f8e...b1a0",
+    "pendingBal": "montiNULL",
+    "disputedClaims": "montiNULL"
+  },
+  "policy": "PRECLUDE_TAW",
+  "keccakProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+  "processedDigest": "0xc161b9077ad9e7d8c967450c99803de08ae2710ceb377250b6e874a18c131b6b",
+  "timestamp": "2026-10-18T22:56:28.067Z",
+  "entrySeal": "0x6314969beed11c034a7371b06684a99cfcfcba2f90895202c77e7bcf36e25ce1"
+}

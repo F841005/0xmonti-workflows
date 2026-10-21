@@ -1,0 +1,36 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "spec": "MONTI_ANSI_F841005_PLAYSTORE_DEV_SPECIFICATION",
+  "version": "2026.10.17",
+  "hardwareId": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "authority": "MONTI^JOHN^CHARLES^MONTI",
+  "operator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+  "policy": "PRECLUDE_TAW",
+  "developerProfile": {
+    "playStoreDevUrlNumeric": "https://play.google.com/store/apps/dev?id=495871748787",
+    "playStoreDevUrlNamed": "https://play.google.com/store/apps/dev?id=MONTIDROID",
+    "numericDevId": "495871748787",
+    "developerName": "MONTIDROID",
+    "organization": "montidroid.com",
+    "developerEmail": "owner@montidroid.com",
+    "associatedPackages": [
+      "com.monti.ansi.f841005.explorer",
+      "com.montidroid.trustbank",
+      "com_montidroid_studio_ai",
+      "com.brave.browser.monti.ansi"
+    ]
+  },
+  "cryptographicAnchors": {
+    "keccakProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+    "calldataSeal": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0"
+  },
+  "statutoryMatrix": [
+    "18_USC_1030",
+    "18_USC_2511",
+    "45_CFR_164_312",
+    "47_CFR_Part15",
+    "47_USC_227"
+  ],
+  "timestamp": new Date().toISOString()
+}

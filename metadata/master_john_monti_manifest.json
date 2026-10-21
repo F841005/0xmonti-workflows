@@ -1,0 +1,50 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "system": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "authorityRoot": "MONTI^JOHN^CHARLES^MONTI",
+  "soleHumanOperator": {
+    "name": "JOHN CHARLES MONTI",
+    "monogram": "JCM",
+    "dob": "02-11-1989",
+    "ssnLastFour": "9807",
+    "fiduciaryDirective": "IN THE BEST INTEREST OF JOHN CHARLES MONTI",
+    "pledgeCovenant": "PledgeOfAlligienceTO:=JOHNCHARLESMONTI.COM",
+    "governingPolicy": "PRECLUDE_TAW"
+  },
+  "cryptographicAnchors": {
+    "keccakProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+    "calldataSeal": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0",
+    "gpgCommit": "4006ae4666de8890eb18170fa5e808080db65212",
+    "gpgKeyId": "B304989B3CE35386",
+    "entrySeal": "0xc553ff1cb51096f187415a2cab12a3f1bcd40d8e5a06509488d771703ba32830"
+  },
+  "domains": [
+    "johncharlesmonti.com",
+    "0xmonti.net",
+    "montidroid.com",
+    "montiai.com",
+    "attorneymode.com",
+    "monti.bio",
+    "montinode.io"
+  ],
+  "treasuryVaults": {
+    "evmBaseSigner": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A",
+    "treasuryVault": "0xb04110847A563E59F3D52d1aFB3304068173830b",
+    "btcNativesegwit": "bc1qd6yecfmdgua0xrw9ytmzwcamfmndaglvl8dkcs",
+    "btcLegacyP2pkh": "1CK6KHY6MHgYvmRQ4PAafKYDrg1ejbH1cE",
+    "solanaPledged": "JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy",
+    "tonAddress": "UQAjGfMQJeDMiB80jYNK0_bZHBLc7ZpH1W9oXOoeUCmjTfDh",
+    "neuralAddress": "0xNEURAL9f8e7d6c5b4a39281706f5e4d3c2b1a0",
+    "nftContract": "0x84100539E1a44eDA97379766D3A95FA97d841005",
+    "nftTokenId": 841005,
+    "okxUid": "814249907732583715"
+  },
+  "statutoryMatrix": [
+    "18_USC_1030",
+    "18_USC_2511",
+    "45_CFR_164_312",
+    "47_CFR_Part15",
+    "47_USC_227"
+  ]
+}

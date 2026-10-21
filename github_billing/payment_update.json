@@ -1,0 +1,31 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "paymentInformation": {
+    "accountHolder": "John Charles Monti",
+    "hardwareId": "MONTI_ANSI_F841005",
+    "containerProfile": "F841005WV22ZL01",
+    "authorityRoot": "MONTI^JOHN^CHARLES^MONTI",
+    "billingContact": {
+      "name": "John Charles Monti",
+      "email": "johncharlesmonti@gmail.com",
+      "address": "496 Adairs Run Rd",
+      "city": "Princeton",
+      "state": "WV",
+      "postalCode": "24739",
+      "country": "US"
+    },
+    "fundingSource": {
+      "type": "DEPOSITORY_CREDIT_CORE",
+      "institution": "The Bancorp Bank, N.A.",
+      "routingNumber": "031101279",
+      "accountNumber": "156120503925",
+      "cashtag": "$MONTIAI"
+    },
+    "cryptographicAttestation": {
+      "policyDirective": "PRECLUDE_TAW",
+      "keccakProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+      "calldataSeal": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0",
+      "timestamp": "2026-10-18T03:09:33Z"
+    }
+  }
+}

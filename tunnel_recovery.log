@@ -1,0 +1,4 @@
+nohup: ignoring input
+2026-10-18T22:58:15Z ERR The credentials file at /data/data/com.termux/files/home/.cloudflared/20eb86bf-c1c3-4396-b420-becf79b1ca40.json contained invalid JSON. This is probably caused by passing the wrong filepath. Reminder: the credentials file is a .json file created via `cloudflared tunnel create`.
+2026-10-18T22:58:15Z ERR Invalid JSON when parsing credentials file: invalid character 'M' looking for beginning of value
+Invalid JSON when parsing tunnel credentials file

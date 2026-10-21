@@ -1,0 +1,16 @@
+[Unit]
+Description=io.montinode Sovereign Gateway Core Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/io.montinode
+ExecStart=/usr/bin/node server_443.mjs
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+Environment=TARGET_PROFILE=SOLUTION_ZONE
+
+[Install]
+WantedBy=multi-user.target

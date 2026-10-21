@@ -1,0 +1,17 @@
+{
+  "hardwareId": "MONTI_ANSI_F841005",
+  "container": "F841005WV22ZL01",
+  "authority": "MONTI^JOHN^CHARLES^MONTI",
+  "operator": "JOHN CHARLES MONTI (DOB: 02-11-1989)",
+  "sinkDomain": "human.johncharlesmonti.com",
+  "magic": "0x1626ba7e",
+  "gmacNonce": "0x92bda700c6d97aa8a97bfe25",
+  "gmacTag": "0x758286473fee5aca6a835510922cece1",
+  "attestationState": "AUTHENTICATED_IMMUTABLE",
+  "statutoryMatrix": [
+    "18_USC_1030",
+    "18_USC_2511",
+    "45_CFR_164_312"
+  ],
+  "timestamp": "2026-10-19T11:10:09.723Z"
+}

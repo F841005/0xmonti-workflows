@@ -1,0 +1,7 @@
+nohup: ignoring input
+[✓] Port 8088 Active :: Apex Router Gateway
+[✓] Port 8440 Active :: Repository Engine Root
+[✓] Port 8450 Active :: Zero-Trust Package Firewall
+[✓] Port 8460 Active :: Workload Identity Federation
+[✓] Port 8490 Active :: MCP Neural Host
+[✓] Port 8498 Active :: AttorneyMode Workforce Gateway

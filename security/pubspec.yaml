@@ -1,0 +1,57 @@
+name: monti_ansi_f841005_identity_hub
+description: MONTI_ANSI_F841005 Full Featured Identity Hub
+version: 1.0.0+1
+publish_to: "none"
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_flutter: ^4.1.0        # QR code generation
+  http: ^1.2.0              # optional network calls (not required)
+
+dev_dependencies:
+  flutter_test: any
+  flutter_lints: ^4.0.0
+
+monti_enclave:
+  hardware_id: "MONTI_ANSI_F841005"
+  container_profile: "F841005WV22ZL01"
+  authority: "MONTI^JOHN^CHARLES^MONTI"
+  operator: "JOHN CHARLES MONTI (DOB: 02-11-1989)"
+  policy: "PRECLUDE_TAW"
+  fiduciary_directive: "IN THE BEST INTEREST OF JOHN CHARLES MONTI"
+  keccak_proof: "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369"
+  calldata_seal: "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0"
+  gpg_commit_ref: "4006ae4666de8890eb18170fa5e808080db65212"
+  engine_runtime: "MONTIANSIF841005_Engine.js"
+
+  models:
+    flash_model: "gemini-2.5-flash"
+    pro_model: "gemini-2.5-pro"
+    legacy_pro_model: "gemini-1.5-pro"
+
+  gateways:
+    primary_apex: "https://0xmonti.net"
+    loopback_origin: "http://127.0.0.1:8088"
+    human_network: "http://127.0.0.1:8472"
+
+  settlement_vaults:
+    btc_segwit: "bc1qd6yecfmdgua0xrw9ytmzwcamfmndaglvl8dkcs"
+    btc_legacy: "1CK6KHY6MHgYvmRQ4PAafKYDrg1ejbH1cE"
+    evm_base_signer: "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A"
+    treasury_vault: "0xb04110847A563E59F3D52d1aFB3304068173830b"
+    solana_pledged: "JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy"
+    ton_recipient: "UQAjGfMQJeDMiB80jYNK0_bZHBLc7ZpH1W9oXOoeUCmjTfDh"
+
+  statutes:
+    - "18_USC_1030"
+    - "18_USC_2511"
+    - "45_CFR_164_312"
+    - "47_CFR_Part15"
+    - "47_USC_227"
+
+flutter:
+  uses-material-design: false

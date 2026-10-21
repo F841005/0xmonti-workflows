@@ -1,0 +1,8 @@
+nohup: ignoring input
+[✓] Master Cluster Port 8088 Active (Apex Router Gateway)
+[-] Server Port 8089 Error: listen EADDRINUSE: address already in use 127.0.0.1:8089
+[✓] Master Cluster Port 8440 Active (Repository Engine Root)
+[✓] Master Cluster Port 8450 Active (Zero-Trust Package Firewall)
+[✓] Master Cluster Port 8460 Active (Workload Identity Federation)
+[✓] Master Cluster Port 8490 Active (MCP Neural Host)
+[✓] Master Cluster Port 8498 Active (AttorneyMode Workforce Gateway)

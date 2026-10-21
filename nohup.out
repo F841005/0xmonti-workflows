@@ -1,0 +1,10 @@
+[2026-10-19T21:54:33.155Z] [INFO] [MONTI_ANSI_F841005] Starting sovereign background process engine...
+[2026-10-19T21:54:33.160Z] [INFO] [CONTAINER:F841005WV22ZL01] Validating authority MONTI^JOHN^CHARLES^MONTI.
+[2026-10-19T21:54:33.165Z] [INFO] [ATTORNEYMODE] Biometric health anchor F841005 DD 021189MJ2911 verified: HEALTHY_OPTIMAL.
+[2026-10-19T21:54:33.170Z] [INFO] [WORKFORCE] Endpoint attached: https://workforce.attorneymode.com/v1/update
+[2026-10-19T21:54:33.175Z] [INFO] [NOTEBOOKLM] Bound to MONTI_ANSI_F841005 LIFE DRIVE (notebooks/1b0b4c1c-46d1-4472-bb6e-ad9ab8ab0228).
+[2026-10-19T21:54:33.180Z] [INFO] [REPOS] Attached source target: https://github.com/F841005/Monti-architecture-/edit/main/nohup.out
+[2026-10-19T21:54:33.185Z] [INFO] [POLICY] Enforcement mode active: F841005.ATTORNEYMODE_NO_ROTATION.
+[2026-10-19T21:54:33.190Z] [SUCCESS] System initialized cleanly. Processed Digest: 0xc161b9077ad9e7d8c967450c99803de08ae2710ceb377250b6e874a18c131b6b
+[2026-10-19T21:54:33.195Z] [SUCCESS] Entry Seal: 0x8ab396c70fe6f51b63e672dcf27155f3473797d10d75420d16da7d69875a145e
+[2026-10-19T21:54:33.200Z] [DAEMON] Listening for workforce update heartbeat cycles on channel 11...

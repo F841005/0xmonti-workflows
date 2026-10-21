@@ -1,0 +1,31 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "name": "MONTI_ANSI_F841005 Master Enclave Attestation #841005",
+  "description": "ERC-721 cryptographic attestation proof of operational continuity and sovereign asset custody for hardware anchor MONTI_ANSI_F841005 under PRECLUDE_TAW.",
+  "contractAddress": "0x84100539E1a44eDA97379766D3A95FA97d841005",
+  "tokenId": 841005,
+  "standard": "ERC-721",
+  "external_url": "https://0xmonti.net/v1/identity",
+  "recipient": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A",
+  "treasuryVault": "0xb04110847A563E59F3D52d1aFB3304068173830b",
+  "attributes": [
+    { "trait_type": "Hardware Anchor", "value": "MONTI_ANSI_F841005" },
+    { "trait_type": "Container Profile", "value": "F841005WV22ZL01" },
+    { "trait_type": "Authority", "value": "MONTI^JOHN^CHARLES^MONTI" },
+    { "trait_type": "Operator", "value": "JOHN CHARLES MONTI (DOB: 02-11-1989)" },
+    { "trait_type": "Policy Regime", "value": "PRECLUDE_TAW" },
+    { "trait_type": "Genesis Proof", "value": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369" },
+    { "trait_type": "Calldata Seal", "value": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0" }
+  ],
+  "properties": {
+    "statutory_matrix": [
+      "18_USC_1030",
+      "18_USC_2511",
+      "45_CFR_164_312",
+      "47_CFR_Part15",
+      "47_USC_227"
+    ],
+    "fiduciary_directive": "IN THE BEST INTEREST OF JOHN CHARLES MONTI",
+    "resolution": "RES-ATTORNEYMODE-2026-COMPUTE-001"
+  }
+}

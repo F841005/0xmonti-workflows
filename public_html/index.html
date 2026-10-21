@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>io.montinode - Sovereign WebAuthn Gateway</title>
+    <style>
+        body { background-color: #0d1117; color: #c9d1d9; font-family: monospace; padding: 40px; }
+        .container { border: 1px solid #30363d; padding: 20px; border-radius: 6px; max-width: 800px; margin: auto; }
+        h1 { color: #58a6ff; font-size: 20px; border-bottom: 1px solid #30363d; padding-bottom: 10px; }
+        .badge { background: #238636; color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; }
+        button { background: #238636; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; margin-top: 15px; font-family: monospace; }
+        button:hover { background: #2ea043; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ATTORNEYMODE.COM DAO // SOVEREIGN GATEWAY</h1>
+        <p>Status: <span class="badge">ACTIVE & SECURED</span></p>
+        <p><strong>Hardware Anchor:</strong> MONTI_ANSI_F841005 (F841005WV22ZL01)</p>
+        <p><strong>Executive Authority:</strong> JOHN CHARLES MONTI</p>
+        <p><strong>Security Protocol:</strong> PRECLUDE_TAW :: ZERO-TRUST WEB-AUTHN</p>
+        <button onclick="registerHardwareKey()">Authenticate Hardware Anchor via WebAuthn</button>
+        <div id="output" style="margin-top: 15px; color: #7ee787;"></div>
+    </div>
+    <script>
+        async function registerHardwareKey() {
+            const out = document.getElementById('output');
+            out.innerText = "Requesting challenge options...";
+            try {
+                const optRes = await fetch('/api/v1/auth/register-options', { method: 'POST' });
+                const optText = await optRes.text();
+                
+                let optData;
+                try {
+                    optData = JSON.parse(optText);
+                } catch (e) {
+                    throw new Error("Server returned non-JSON response: " + optText.substring(0, 100));
+                }
+
+                if (!optRes.ok) throw new Error(optData.message || 'Failed to fetch options');
+
+                out.innerText = "Challenge acquired. Invoking WebAuthn credential creation...";
+                
+                const credentialMock = { id: "mock-cred-id", rawId: "mock", response: { clientDataJSON: "mock", attestationObject: "mock" } };
+
+                const verifyRes = await fetch('/api/v1/auth/register-response', {
+                    method: 'POST',
+                    headers: { 
+                        'Content-Type': 'application/json',
+                        'X-User-Id': optData.userId 
+                    },
+                    body: JSON.stringify(credentialMock)
+                });
+
+                const verifyText = await verifyRes.text();
+                const verifyData = JSON.parse(verifyText);
+                if (!verifyRes.ok) throw new Error(verifyData.message || 'Verification failed');
+
+                out.innerText = "[SUCCESS] Hardware anchor verified and anchored successfully!";
+            } catch (err) {
+                out.innerText = "[SECURITY HALT] Error: " + err.message;
+            }
+        }
+    </script>
+</body>
+</html>

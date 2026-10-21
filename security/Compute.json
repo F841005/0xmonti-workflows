@@ -1,0 +1,74 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "$schema": "https://attorneymode.com/schemas/committee_approved_events_v1.json",
+  "committeeResolution": {
+    "governingBody": "ATTORNEYMODE.COM COMMITTEE",
+    "resolutionId": "RES-ATTORNEYMODE-2026-COMPUTE-001",
+    "status": "APPROVED_AND_VOTED_UNANIMOUS",
+    "voteResult": {
+      "affirmative": "100%",
+      "dissenting": "0%",
+      "quorumMet": true,
+      "votingTimestamp": "2026-10-17T08:25:00.000Z"
+    },
+    "authorityRoot": "MONTI^JOHN^CHARLES^MONTI",
+    "soleBeneficiary": {
+      "name": "JOHN CHARLES MONTI",
+      "dob": "02-11-1989",
+      "fiduciaryMandate": "IN THE BEST INTEREST OF JOHN CHARLES MONTI",
+      "covenant": "PledgeOfAlligienceTO:=JOHNCHARLESMONTI.COM"
+    },
+    "hardwareAnchor": "MONTI_ANSI_F841005",
+    "containerProfile": "F841005WV22ZL01",
+    "policyRegime": {
+      "directive": "PRECLUDE_TAW",
+      "noRotationRule": "MJ-NRP-2026-V1",
+      "statutes": [
+        "18_USC_1030",
+        "18_USC_2511",
+        "45_CFR_164_312",
+        "47_CFR_Part15",
+        "47_USC_227"
+      ]
+    },
+    "cryptographicProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+    "calldataSeal": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0"
+  },
+  "approvedEvents": [
+    {
+      "eventId": "EVT-2026-001",
+      "eventType": "SOVEREIGN_IDENTITY_ANCHOR_RATIFICATION",
+      "action": "Affirm permanent anchor of John Charles Monti as root authority under MONTI_ANSI_F841005",
+      "status": "APPROVED",
+      "committeeVote": "PASS_UNANIMOUS"
+    },
+    {
+      "eventId": "EVT-2026-002",
+      "eventType": "ZERO_TRUST_NON_ROTATION_MANDATE",
+      "action": "Enforce PRECLUDE_TAW across all cryptographic keys, tokens, and hardware profiles",
+      "status": "APPROVED",
+      "committeeVote": "PASS_UNANIMOUS"
+    },
+    {
+      "eventId": "EVT-2026-003",
+      "eventType": "EDGE_GATEWAY_COMPUTE_AUTHORIZATION",
+      "action": "Authorize loopback origins (8088, 8440, 8450, 8460, 8472) and Cloudflare mesh tunnels",
+      "status": "APPROVED",
+      "committeeVote": "PASS_UNANIMOUS"
+    },
+    {
+      "eventId": "EVT-2026-004",
+      "eventType": "CRYPTO_ASSET_AND_BTC_BINDING_AFFIRMATION",
+      "action": "Confirm custody and ownership of Bitcoin asset 1CK6KHY6MHgYvmRQ4PAafKYDrg1ejbH1cE and node bc1qd6yecfmdgua0xrw9ytmzwcamfmndaglvl8dkcs",
+      "status": "APPROVED",
+      "committeeVote": "PASS_UNANIMOUS"
+    },
+    {
+      "eventId": "EVT-2026-005",
+      "eventType": "OAT_TOKEN_AND_AIRGAP_ENCLAVE_DEPLOYMENT",
+      "action": "Approve execution of OAT_MONTI_1787410308560_992M05 and Brave custom tab compute isolation",
+      "status": "APPROVED",
+      "committeeVote": "PASS_UNANIMOUS"
+    }
+  ]
+}

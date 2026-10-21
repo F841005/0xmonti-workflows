@@ -1,0 +1,5 @@
+nohup: ignoring input
+[-] Service [attorneymode.com (Apex Gateway)] on port 8088 failed: listen EADDRINUSE: address already in use 127.0.0.1:8088
+[✓] AttorneyMode Service [legal.attorneymode.com (Statutory Arbiter)] active on http://127.0.0.1:8472
+[✓] AttorneyMode Service [telemetry.attorneymode.com (Biometric Health)] active on http://127.0.0.1:8475
+[✓] AttorneyMode Service [cialabs.attorneymode.com (Research Matrix)] active on http://127.0.0.1:8496

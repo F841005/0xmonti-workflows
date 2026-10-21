@@ -1,0 +1,12 @@
+{
+  "event": "SOVEREIGN_THREAD_SYNCHRONIZED",
+  "hardwareId": "MONTI_ANSI_F841005",
+  "container": "F841005WV22ZL01",
+  "authority": "MONTI^JOHN^CHARLES^MONTI",
+  "solution": "PLEDGEALLEGIANCETO^F841005WVHL7",
+  "temperature": 130,
+  "tokenAllocation": 100000,
+  "header": "https://workforce.attorneymode.com/?HEADER",
+  "footer": "https://gateway.0xmonti.net/^FOOTER",
+  "timestamp": "2026-10-18T18:46:19Z"
+}

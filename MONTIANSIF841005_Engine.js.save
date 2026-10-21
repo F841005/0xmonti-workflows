@@ -1,0 +1,221 @@
+/**
+ * Filename: MONTIANSIF841005_Engine.js
+ * Location: /sdcard/F841005WV22ZL01/MONTIANSIF841005_Engine.js
+ * Extension: .js
+ * Module: MontiProtocol/Core/SuperEngine
+ * AUTHORITY: MONTI^JOHN^CHARLES^MONTI
+ * SOLE HUMAN: JOHN CHARLES MONTI (DOB: 02-11-1989)
+ * HARDWARE_ID: MONTI_ANSI_F841005
+ * PROTOCOL: monti_string:80000002
+ * POLICY: PRECLUDE_TAW (MJ-NRP-2026-V1)
+ * Runtime: Node.js 22+, ES module
+ */
+
+import {
+  createHash,
+  randomBytes,
+  createHmac,
+  createDecipheriv
+} from 'node:crypto';
+import { stripVTControlCharacters } from 'node:util';
+import http from 'node:http';
+import fs from 'node:fs';
+import path from 'node:path';
+
+try { process.on('SIGRTMIN+2', () => {}); } catch (_) {}
+
+const FRAMEWORK = 'MONTI_ANSI_F841005';
+const VERSION = '3.1.1-F841005';
+const REFERENCE_URI = 'https://unicodefyi.com/series/mod';
+const MAX_INPUT_BYTES = 1024 * 1024;
+
+export function sha256(value) {
+  return createHash('sha256').update(value).digest('hex');
+}
+
+export function serialize(obj) {
+  return JSON.stringify(obj, Object.keys(obj).sort());
+}
+
+export function unixNano() {
+  return (BigInt(Date.now()) * 1_000_000n).toString();
+}
+
+export function toBytes(input) {
+  let bytes;
+  if (typeof input === 'string') {
+    if (input.length > MAX_INPUT_BYTES) throw new RangeError('Input exceeds limit.');
+    bytes = Buffer.from(input, 'utf8');
+  } else if (input instanceof ArrayBuffer) {
+    bytes = new Uint8Array(input);
+  } else if (ArrayBuffer.isView(input)) {
+    bytes = new Uint8Array(input.buffer, input.byteOffset, input.byteLength);
+  } else {
+    throw new TypeError('Expected string, ArrayBuffer, or typed array.');
+  }
+  return Buffer.from(bytes);
+}
+
+export function sanitizeOutput(text) {
+  if (typeof text !== 'string') throw new TypeError('Expected text.');
+  return stripVTControlCharacters(text).replace(/[^\x09\x0A\x20-\x7E]/g, '');
+}
+
+export const MONTI_ROOT = {
+  engine: 'MONTIANSIF841005_Engine.js',
+  standard: 'MONTI_ANSI_F841005',
+  authority: 'MONTI^JOHN^CHARLES^MONTI',
+  soleHuman: 'JOHN CHARLES MONTI',
+  procuredRegistry: new Map()
+};
+
+Object.procure = function (target, label) {
+  if (!target || typeof target !== 'object') return target;
+  Object.freeze(target);
+  for (const key of Object.getOwnPropertyNames(target)) {
+    const val = target[key];
+    if (val && typeof val === 'object' && !Object.isFrozen(val)) {
+      Object.procure(val, `${label}.${key}`);
+    }
+  }
+  const canonical = JSON.stringify(target);
+  const seal = createHash('sha3-256').update(`${label}|${canonical}`).digest('hex');
+  MONTI_ROOT.procuredRegistry.set(label, { seal, target, timestamp: new Date().toISOString() });
+  return target;
+};
+
+export const IDENTITY = Object.procure({
+  assetId: 'MONTI_ANSI_F841005',
+  ansiId: 'F841005WV22ZL01',
+  container: 'F841005WV22ZL01',
+  owner: 'JOHN CHARLES MONTI',
+  dob: '02-11-1989',
+  authority: 'MONTI^JOHN^CHARLES^MONTI',
+  policy: 'PRECLUDE_TAW',
+  keccakProof: '0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369',
+  calldataSeal: '0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0',
+  wallets: {
+    solanaPledged: 'JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy',
+    ethereumBase: '0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A',
+    treasuryVault: '0xb04110847A563E59F3D52d1aFB3304068173830b',
+    tonAddress: 'UQAjGfMQJeDMiB80jYNK0_bZHBLc7ZpH1W9oXOoeUCmjTfDh',
+    neuralAddress: '0xNEURAL9f8e7d6c5b4a39281706f5e4d3c2b1a0'
+  },
+  goldenRatio: 1.618033988749895,
+  delimiter: '!!!!:'
+}, 'IDENTITY');
+
+export class MontiAnsiF841005SuperParser {
+  constructor() {
+    this.goldenRatio = IDENTITY.goldenRatio;
+    this.delimiter = IDENTITY.delimiter;
+  }
+
+  superDecode(input) {
+    if (!input) return { status: 'EMPTY_INPUT', buffer: Buffer.alloc(0) };
+    let buf;
+    if (Buffer.isBuffer(input)) {
+      buf = input;
+    } else if (typeof input === 'string') {
+      const clean = input.trim();
+      if (clean.startsWith('0x') || (/^[0-9a-fA-F]{2,}$/.test(clean) && clean.length \% 2 === 0)) { buf = Buffer.from(clean.replace(/^0x/, ''), 'hex'); } else if (/^[A-Za-z0-9+/_-]+={0,2}$/.test(clean) && clean.length % 4 === 0) {
+        buf = Buffer.from(clean.replace(/-/g, '+').replace(/_/g, '/'), 'base64');
+      } else {
+        buf = Buffer.from(clean, 'utf8');
+      }
+    } else {
+      buf = Buffer.from(JSON.stringify(input), 'utf8');
+    }
+    return {
+      byteLength: buf.length,
+      hex: buf.toString('hex'),
+      utf8Text: buf.toString('utf8'),
+      buffer: buf,
+      keccak256: '0x' + createHash('sha3-256').update(buf).digest('hex')
+    };
+  }
+
+  superDecipher(payload) {
+    const decoded = this.superDecode(payload);
+    const text = decoded.utf8Text;
+    const results = { baseAnalysis: decoded, claims: [], parcelExtracted: null, magicAnalysis: null };
+
+    if (text.includes(this.delimiter)) {
+      results.claims = text.split(this.delimiter).map((seg, idx) => ({
+        index: idx,
+        content: seg.trim(),
+        sha256: createHash('sha256').update(seg.trim()).digest('hex')
+      }));
+    }
+
+    const magicSlice = decoded.buffer.subarray(0, 4).toString('hex').toUpperCase();
+    const magicSignatures = {
+      'FFD8FFE0': 'JPEG (JFIF)', '89504E47': 'PNG Image', '47494638': 'GIF Image',
+      '504B0304': 'ZIP / DOCX / JAR', '4D5A9000': 'PE / EXE / DLL', '736F6C61': 'Solana System Stream'
+    };
+    results.magicAnalysis = magicSignatures[magicSlice] || `UNKNOWN_MAGIC_${magicSlice}`;
+    return results;
+  }
+}
+
+export class SuperDecoder {
+  async decodeAndIdentify(input) {
+    return superParser.superDecipher(input);
+  }
+}
+
+export class MontiThroughputEngine {
+  constructor() {
+    this.nodeId = IDENTITY.assetId;
+    this.version = VERSION;
+    this.domain = 'JOHNCHARLESMONTI.COM';
+  }
+
+  async executeMontiTask(context = {}) {
+    const traceId = randomBytes(16).toString('hex');
+    const spanId = randomBytes(8).toString('hex');
+    
+    // Auth token integration & endpoint authorization payload construction
+    const authMontiString = process.env.MONTI_STRING || 'monti_string:80000002:F841005WV22ZL01:22CmOGpCa95BqKIZm5mPQViSGbWfC4IT0skjB5DZ2mg1eiE9a2pVDF4JGxZwQ75K~';
+    
+    const record = {
+      node: this.nodeId,
+      framework: this.version,
+      domain: this.domain,
+      status: 'AUDIT_RECORD_CREATED',
+      timestamp: new Date().toISOString(),
+      authority: IDENTITY.authority,
+      authHeaderBound: authMontiString.slice(0, 24) + '...',
+      context
+    };
+
+    return {
+      success: true,
+      traceId,
+      spanId,
+      result: record,
+      hashes: {
+        sha256: sha256(serialize(record))
+      }
+    };
+  }
+}
+
+export const monti_ansi_f841005 = new MontiThroughputEngine();
+export const superParser = new MontiAnsiF841005SuperParser();
+
+export const MONTIANSIF841005_Engine = Object.freeze({
+  version: VERSION,
+  framework: FRAMEWORK,
+  identity: IDENTITY,
+  decoder: new SuperDecoder(),
+  superParser,
+  async process(input) {
+    return this.decoder.decodeAndIdentify(input);
+  },
+  async executeMontiTask(context = {}) {
+    return monti_ansi_f841005.executeMontiTask(context);
+  }
+});
+
+export default MONTIANSIF841005_Engine;

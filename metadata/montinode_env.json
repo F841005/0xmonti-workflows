@@ -1,0 +1,32 @@
+MONTIDROID: SovereignCode of HUMAN.JOHNCHARLESMONTI.COM.
+{
+  "schema": "https://montinode.io/schemas/environment_v1.json",
+  "nodeEnvironment": "IMMORTAL_LIFE",
+  "domain": "montinode.io",
+  "hardwareAnchor": "MONTI_ANSI_F841005",
+  "containerProfile": "F841005WV22ZL01",
+  "authorityRoot": "MONTI^JOHN^CHARLES^MONTI",
+  "soleHumanOperator": {
+    "name": "JOHN CHARLES MONTI",
+    "dob": "02-11-1989",
+    "ssnLastFour": "9807",
+    "fiduciaryDirective": "IN THE BEST INTEREST OF JOHN CHARLES MONTI"
+  },
+  "pledgeDirective": "PledgeOfAlligienceTO:=JOHNCHARLESMONTI.COM",
+  "settlementRegistry": {
+    "evmTreasuryCore": "0xb04110847A563E59F3D52d1aFB3304068173830b",
+    "baseL2Signer": "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A",
+    "solanaPledgedCore": "JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy",
+    "neuralRegisterSink": "0xNEURAL9f8e7d6c5b4a39281706f5e4d3c2b1a0"
+  },
+  "statutoryCompliance": [
+    "18_USC_1030",
+    "18_USC_2511",
+    "45_CFR_164_312",
+    "47_CFR_Part15",
+    "47_USC_227"
+  ],
+  "keccakProof": "0x4fd11fa5d34dedc819ac73e41b7c592aafdd507508a6febeaba92c7f9371d369",
+  "calldataSeal": "0xMONTI_SIG_4E6F6465_4A6F686E_436861726C6573_4D6F6E7469_9f8e7d6c5b4a39281706f5e4d3c2b1a0",
+  "timestamp": "2026-10-18T01:40:53.957Z"
+}
