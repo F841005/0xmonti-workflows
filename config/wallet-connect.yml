@@ -1,0 +1,63 @@
+# ==============================================================================
+# WALLET-CONNECT & NETWORK ROUTING MANIFEST (0XMONTI.NET -> MONTINODE.IO)
+# File: /sdcard/F841005WV22ZL01/ANDROID/monti/contracts/wallet-connect.yml
+# ==============================================================================
+version: "1.0"
+generated_at: "2026-10-21T15:47:13.684Z"
+
+network_routing:
+  ingress_domain: "0xmonti.net"
+  blockchain_service: "montinode.io"
+  local_gateway_rpc: "http://127.0.0.1:8545"
+  fallback_upstream_rpc: "https://ethereum-rpc.publicnode.com"
+  broadcast_methods:
+    - "eth_sendRawTransaction"
+    - "eth_call"
+    - "eth_getBalance"
+    - "eth_getTransactionCount"
+
+local_config:
+  config_file: "config/monti_brave_wallet.json"
+  bound_wallet: "0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4"
+  wallet_label: "MONTI Brave Wallet"
+
+local_manifest:
+  manifest_file: "config/lifetime_history.jsonrpc.json"
+  head_commit: "9a123c598c53b3ad0d25c747a36599ae7df8be08"
+  transition: "5e7b62f..9a123c5"
+  sha256_digest: "0x8c3e10e5e968a4e67c27475d16dd4e4453d013377d947e7a2d13fd1d62b80e58"
+
+targets:
+  - id: "monti_brave_wallet"
+    label: "MONTI Brave Wallet"
+    address: "0x558Bc5A144326f54b8414680E8962F7ba8F5C7a4"
+    valid: true
+    format: "20-byte hex"
+    casing: "mixed-case (EIP-55 style)"
+    rpc_status: "ONLINE"
+    rpc_endpoint: "https://ethereum-rpc.publicnode.com"
+    balance_eth: "0.000000 ETH"
+    balance_wei: "0"
+    tx_count: 0
+  - id: "evm_treasury"
+    label: "EVM Treasury"
+    address: "0xb04110847A563E59F3D52d1aFB3304068173830b"
+    valid: true
+    format: "20-byte hex"
+    casing: "mixed-case (EIP-55 style)"
+    rpc_status: "ONLINE"
+    rpc_endpoint: "https://ethereum-rpc.publicnode.com"
+    balance_eth: "0.000000 ETH"
+    balance_wei: "0"
+    tx_count: 0
+  - id: "base_l2_signer"
+    label: "Base L2 Signer"
+    address: "0x9E2F7A1C3D8B0E4F6A2C8D5E9F1B7A3C0D8E2F4A"
+    valid: true
+    format: "20-byte hex"
+    casing: "all-uppercase"
+    rpc_status: "ONLINE"
+    rpc_endpoint: "https://ethereum-rpc.publicnode.com"
+    balance_eth: "0.000000 ETH"
+    balance_wei: "0"
+    tx_count: 0
